@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Technical_Guidelines_v1_1">
+  <title>Technical Guidelines</title>
+  <body id="page">
+    <ul otherprops="HideHTML5">
+      <li> <xref href="system_requirements.dita#Mitel_Help_Center____System_Requirements_1_v1_1"></xref> </li>
+      <li> <xref href="bandwidth_requirements.dita#Mitel_Help_Center____Bandwidth_Requirements_v1_1"></xref> </li>
+      <li> <xref href="firewall_settings.dita#id204280WF05Z"></xref> </li>
+      <li> <xref href="scalability.dita#Mitel_Help_Center____Scalability_v1_1" scope="local"></xref> </li>
+    </ul>
+  </body>
+</topic>

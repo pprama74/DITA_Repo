@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Tour_of_the_Home_Screen_2_v1_1">
+	<title>Tour of the Home Screen</title>
+	<body id="page">
+		<p>The Home screen provides easy access to all MiTeam Meetings features and enables you to quickly manage your meetings.</p>
+		<p>
+			<image align="center" height="250" placement="break" width="670" id="image_2" href="../Images/homescreen.jpg">
+			</image>
+		</p>
+		<section>
+			<title>Start Now</title>
+			<p>Use this option to create and join an ad hoc meeting. For more information, see
+				<xref href="create_meeting.dita#Mitel_Help_Center____Create_a_Meeting_v1_1">Create a Meeting</xref>.
+			</p>
+		</section>
+		<section>
+			<title>Schedule</title>
+			<p>Use this option to create a scheduled meeting. For more information, see
+				<xref href="schedule_meeting.dita#Mitel_Help_Center____Schedule_a_Meeting_v1_1">Schedule a Meeting</xref>.
+			</p>
+		</section>
+		<section>
+			<title>Avatar</title>
+			<p>Click your avatar and click
+				<b>Help &amp; About</b> to view the current version of the application, the online help documentation, release notes, privacy policy, and the End User License Agreement. Click
+				<b>Settings</b> to open the settings panel. Click
+				<xref href="feedback.dita">
+					<b>Issues and Feedback</b>
+				</xref> to report issues and provide feedback, and click
+				<b>Sign out</b> to sign out of the application.
+			</p>
+		</section>
+		<section>
+			<title>My Meetings</title>
+			<p>The
+				<b>My meetings</b> section lists all the meetings created and attended by the user.
+			</p>
+		</section>
+		<section>
+			<title>Chat Window</title>
+			<p>When you click a meeting in the
+				<b>My meetings</b> section, a chat window for that meeting opens, displaying all the previous chat messages sent during the meeting.
+			</p>
+		</section>
+		<section>
+			<title>Join now</title>
+			<p>To join a meeting, click the meeting from the
+				<b>My meetings</b> section. A side panel opens. Click the
+				<b>Join now</b> button to proceed to join the meeting.
+			</p>
+		</section>
+		<section>
+			<title>Edit a Meeting Title</title>
+			<p>To edit the title of a scheduled meeting, click the meeting from the
+				<b>My meetings</b> section. A side panel opens. Click
+				<image height="20" width="20" id="image_4" href="../Images/editmeetingtitle.jpg">
+				</image> and enter the new meeting title. Click
+				<b>Save</b> to save the changes or click
+				<b>Cancel</b> to discard it.
+			</p>
+		</section>
+		<section>
+			<title>List of Attendees</title>
+			<p>When you click a meeting in the
+				<b>My meetings</b> section, a side panel opens, displaying the list of attendees under the section
+				<b>Attended</b>.
+			</p>
+		</section>
+		<section>
+			<title>Meeting Information and Attachments</title>
+			<p>To view the details of a meeting, click the meeting from the
+				<b>My meetings</b> section. A side panel opens. Click
+				<image height="20" width="19" id="image_6" href="../Images/meetinginfo.jpg">
+				</image>. Details of the meeting such as the meeting name, access code, and the meeting invite link are displayed. Click
+				<b>Attachments</b> to view the attachments shared in the meeting.
+			</p>
+		</section>
+		<section>
+			<title>Dial-In Information</title>
+			<p>To view the dial-in information for a meeting, click the meeting from the
+				<b>My meetings</b> section and click
+				<image height="20" width="21" id="image_8" href="../Images/dialininformation.jpg">
+				</image>. The URL of the meeting, the dial-in number, and the meeting ID are displayed.
+			</p>
+		</section>
+	</body>
+</topic>

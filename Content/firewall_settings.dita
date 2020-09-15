@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="id204280WF05Z"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Firewall Settings</title>
+<body><p>MiTeam Meetings uses services provided by the CloudLink
+platform (chat, authorization and authentication, and dialing into
+meetings from the PSTN) and Amazon Web Services (AWS) Chime SDK
+(audio, video, and screen sharing requirements). As a result, MiTeam
+Meetings requires the destinations and ports described in this topic to
+support various services. If inbound or outbound traffic is blocked,
+it might affect the application’s ability to use various services,
+including audio, video, and screen sharing, and chat.</p>
+<p>MiTeam Meetings requires the following network hosts and ports
+for it to function.</p>
+<section><title>Hosts</title><ul><li>*.mitel.io</li>
+<li>*.amazonaws.com</li>
+<li>*.bugsnag.com</li>
+<li>fonts.gstatic.com</li></ul></section>
+<section><title>Ports</title><ul><li>99.77.128.0/18</li>
+<li>TCP/443</li>
+<li>UDP/3478</li></ul></section>
+<p>Web sockets used in the MiTeam Meetings also require an entry
+in the allowed list for *.amazonaws.com for the ports defined in <xref  href="https://docs.aws.amazon.com/iot/latest/developerguide/protocols.html." scope="external">https://docs.aws.amazon.com/iot/latest/developerguide/protocols.html.</xref>.</p>
+<p>If you are using a proxy, ensure that it proxies WebSockets and
+HTTPS.</p>
+<p>Check using <xref  href="https://app.chime.aws/check" scope="external">Amazon Chime Readiness Checker</xref> whether
+your firewall rules require updating.</p></body></topic>
+ 

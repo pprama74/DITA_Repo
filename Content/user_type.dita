@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="id2063H000XHS"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Types of Users</title>
+<body><p>In MiTeam Meetings, there are two types of users: registered
+user, and guest user.</p>
+<p><b>Registered User</b>: A licensed MiTeam Meetings user.</p>
+<p><b>Guest User</b>: An unlicensed MiTeam Meetings user.</p>
+<p>MiTeam Meetings users can join a meeting through a PC, PSTN dial-in,
+or both. An attendee joining a meeting through a PC, has access
+to video, voice, and screen share. Dialing in through PSTN will
+allow an attendee to have a voice only meeting. An attendee can
+also choose to join a meeting through the PC to access only the
+video and screen share features and at the same time dial-in through
+PSTN for audio. For better audio quality, make sure that your PC
+mic is muted when you dial-in through the PSTN.</p>
+<p>The following table shows the features each of the attendees
+have.</p>
+<p><table frame="all" colsep="1" rowsep="1">
+<tgroup cols="4" colsep="1" rowsep="1" outputclass="FormatA">
+<colspec colnum="1" colname="1" colwidth="25*"/>
+<colspec colnum="2" colname="2" colwidth="25*"/>
+<colspec colnum="3" colname="3" colwidth="25*"/>
+<colspec colnum="4" colname="4" colwidth="25*"/>
+<thead>
+<row rowsep="1">
+<entry colname="1">Features</entry>
+<entry colname="2">Registered Attendees</entry>
+<entry colname="3">Guest Attendees</entry>
+<entry colname="4">PSTN Attendees</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1">
+<entry colname="1">Create meeting</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">No</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Schedule meeting</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">No</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Leave meeting</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">Yes</entry>
+<entry colname="4">Yes</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Edit meeting name</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">No</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Accept/Decline users</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">No</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Invite users</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">No</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Screen Share</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">Yes</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Chat</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">Yes</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Video</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">Yes</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Voice</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">Yes</entry>
+<entry colname="4">Yes</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Desktop Client</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">No</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Web Client</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">Yes</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Meetings Home page</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">No</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Waiting Room</entry>
+<entry colname="2">No</entry>
+<entry colname="3">Yes</entry>
+<entry colname="4">No</entry>
+</row>
+<row rowsep="0">
+<entry colname="1">Preview Audio/Video Settings</entry>
+<entry colname="2">Yes</entry>
+<entry colname="3">Yes</entry>
+<entry colname="4">No</entry>
+</row>
+</tbody>
+</tgroup></table></p>
+<note type="caution"><ul><li>Customers should exercise caution
+to prevent accidental disclosure of Meeting Access Codes.</li>
+<li>Mitel recommends that at least one participant in a meeting
+use the Mitel Meetings client to provide visibility to other participants
+in the meeting.</li></ul><p>For more information, see <xref  href="https://www.mitel.com/document-center/security/technical-papers/all-releases/en/miteam-meetings-security-guidelines-release-100-version-1" scope="external">MiTeam Meetings Security Guidelines</xref>.</p></note></body></topic>

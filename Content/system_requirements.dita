@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____System_Requirements_1_v1_1">
+  <title>System Requirements</title>
+  <body id="page">
+    <p>Following are the minimum system requirements for deploying the MiTeam Meetings application.</p>
+    <section>
+      <title>Supported Browsers</title>
+      <table colsep="1" frame="all" rowsep="1">
+        <tgroup colsep="1" outputclass="FormatA" rowsep="1" cols="3">
+          <colspec colwidth="33*" colnum="1" colname="1"></colspec>
+          <colspec colwidth="33*" colnum="2" colname="2"></colspec>
+          <colspec colwidth="33*" colnum="3" colname="3"></colspec>
+          <thead>
+            <row rowsep="1">
+              <entry colname="1">Browser</entry>
+              <entry colname="2">Version</entry>
+              <entry colname="3"></entry>
+            </row>
+          </thead>
+          <tbody>
+            <row rowsep="1">
+              <entry colname="1">
+                <p>Google Chrome</p>
+              </entry>
+              <entry colname="2">
+                <p>78 or later</p>
+              </entry>
+              <entry colname="3"></entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="1">
+                <p>Mozilla Firefox</p>
+              </entry>
+              <entry colname="2">
+                <p>70 or later</p>
+              </entry>
+              <entry colname="3"></entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="1">
+                <p>Safari</p>
+              </entry>
+              <entry colname="2">
+                <p>13 or later</p>
+              </entry>
+              <entry colname="3"></entry>
+            </row>
+            <row rowsep="0">
+              <entry colname="1">
+                <p>Microsoft Edge</p>
+              </entry>
+              <entry colname="2">
+                <p>79 or later</p>
+              </entry>
+              <entry colname="3"></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note>
+        <p>When you join a meeting using the Firefox browser, you are prompted to allow device permissions for microphone and camera in the <b>Welcome</b> page. You must click <b>Allow</b> and then select the check box <b>Remember this decision</b>. If you do not select the check box, you are prompted again for device permissions after you join the meeting.</p>
+      </note>
+    </section>
+    <section>
+      <title>Supported Operating System</title>
+      <table colsep="1" frame="all" rowsep="1">
+        <tgroup colsep="1" outputclass="FormatA" rowsep="1" cols="2">
+          <colspec colwidth="50*" colnum="1" colname="1"></colspec>
+          <colspec colwidth="50*" colnum="2" colname="2"></colspec>
+          <thead>
+            <row rowsep="1">
+              <entry colname="1">Operating System</entry>
+              <entry colname="2">Version</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row rowsep="1">
+              <entry colname="1">
+                <p>Windows</p>
+              </entry>
+              <entry colname="2">
+                <p>7, 10</p>
+              </entry>
+            </row>
+            <row rowsep="0">
+              <entry colname="1">
+                <p>macOS</p>
+              </entry>
+              <entry colname="2">
+                <p>10.14 or later</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Supported Headsets</title>
+      <p>MiTeam Meetings supports various brands and models of headsets for audio routing. Mitel recommends a USB headset with an extended microphone for an ideal audio experience.</p>
+      <note>
+        <p>Some Bluetooth headsets may experience issues from time to time. Mitel recommends headsets that are wired or wireless via a USB dongle.</p>
+      </note>
+      <p>The following is a list of headsets that Mitel recommends:</p>
+      <table colsep="1" frame="all" rowsep="1">
+        <tgroup colsep="1" outputclass="FormatA" rowsep="1" cols="2">
+          <colspec colwidth="50*" colnum="1" colname="1"></colspec>
+          <colspec colwidth="50*" colnum="2" colname="2"></colspec>
+          <tbody>
+            <row rowsep="1">
+              <entry colname="1">Manufacturer</entry>
+              <entry colname="2">Model</entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="1" morerows="2">
+                <p>Jabra</p>
+              </entry>
+              <entry colname="2">
+                <p>Evolve 20</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="2">
+                <p>Evolve 40</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="2">
+                <p>Evolve 75</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="1" morerows="3">
+                <p>Logitech</p>
+              </entry>
+              <entry colname="2">
+                <p>H340</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="2">
+                <p>H390</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="2">
+                <p>H600</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="2">
+                <p>H650e</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="1" morerows="3">
+                <p>Plantronics</p>
+              </entry>
+              <entry colname="2">
+                <p>BT300</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="2">
+                <p>C725</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="2">
+                <p>D100</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="2">
+                <p>Voyager Legend UC</p>
+              </entry>
+            </row>
+            <row rowsep="1">
+              <entry colname="1" morerows="1">
+                <p>Sennheiser</p>
+              </entry>
+              <entry colname="2">
+                <p>504547</p>
+              </entry>
+            </row>
+            <row rowsep="0">
+              <entry colname="2">
+                <p>SC660</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p>In general, the supported audio features include:</p>
+      <ul>
+        <li>
+          <p>Accept/end call</p>
+        </li>
+        <li>
+          <p>Mute/unmute call</p>
+        </li>
+        <li>
+          <p>Volume control</p>
+        </li>
+      </ul>
+      <note>The features supported depends on the device used. For example, changing the audio volume is supported only on a headset with volume controls.</note>
+    </section>
+  </body>
+</topic>

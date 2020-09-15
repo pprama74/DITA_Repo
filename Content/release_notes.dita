@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Meetings_Release_Notes_v1_1">
+  <title>Release Notes</title>
+  <body id="page">
+    <p>The following table provides release information for the <xref href="what_is_meetings.dita#Mitel_Help_Center____What_is_MiTeam_Meetings_v1_1/page">MiTeam Meetings</xref> application. To view current issues for the app, see <xref href="known_issues.dita#Mitel_Help_Center____Meetings_Known_Issues_v1_1/page">Known Issues</xref>.</p>
+    <p>If you are a partner, to view CloudLink Release Notes:</p>
+    <ol id="ol_1">
+      <li>Log into <xref href="https://miaccess.mitel.com/">Mitel MiAccess</xref>.</li>
+      <li>Then <xref href="https://mitel.custhelp.com/app/answers/answer_view/a_id/1009325/loc/en_US/s/16777217_519248ea66fb-0fad-4bd1-8a02-71ea83846a2d/prTxnId/145522703/txnId/145522703#__highlight">click here</xref>.</li>
+    </ol>
+    <table colsep="1" frame="all" rowsep="1">
+      <tgroup colsep="1" outputclass="FormatA" rowsep="1" cols="3">
+        <colspec colwidth="21*" colnum="1" colname="1"></colspec>
+        <colspec colwidth="23*" colnum="2" colname="2"></colspec>
+        <colspec colwidth="56*" colnum="3" colname="3"></colspec>
+        <thead>
+          <row rowsep="1">
+            <entry colname="1">Release Date</entry>
+            <entry colname="2">MiTeam Meetings</entry>
+            <entry colname="3">+New and *Improved Features</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry colname="1">9-July-2020</entry>
+            <entry colname="2">1.8.1</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row>
+            <entry colname="1">2-July-2020</entry>
+            <entry colname="2">1.8.0</entry>
+            <entry colname="3">+ Added a meeting information button to the top left corner of the ongoing meeting UI.</entry>
+          </row>
+          <row>
+            <entry colname="1">25-June-2020</entry>
+            <entry colname="2">1.7.2</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row>
+            <entry colname="1">18-June-2020</entry>
+            <entry colname="2">1.7.1</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row>
+            <entry colname="1">11-June-2020</entry>
+            <entry colname="2">1.7.0</entry>
+            <entry colname="3">Increased avatar resolution</entry>
+          </row>
+          <row>
+            <entry colname="1">4-June-2020</entry>
+            <entry colname="2">1.6.1</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">28-May-2020</entry>
+            <entry colname="2">1.6.0</entry>
+            <entry colname="3">
+              <p>+ User’s can delete or remove a meeting from their list. For more information, see <xref href="delete_meeting.dita#id2063GM0C05Z" outputclass="fm:"></xref>.</p>
+              <p>* Changed meeting tile sorting to place video tiles always at the top of the display list.</p>
+              <p>* Enhanced control bar icons and tool tips.</p>
+            </entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">21-May-2020</entry>
+            <entry colname="2">1.5.4</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">20-May-2020</entry>
+            <entry colname="2">1.5.2</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">7-May-2020</entry>
+            <entry colname="2">1.5.1</entry>
+            <entry colname="3">* Improved the quality and performance of screen sharing.</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">23-Apr-2020</entry>
+            <entry colname="2">1.4.2</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">16-Apr-2020</entry>
+            <entry colname="2">1.4.1</entry>
+            <entry colname="3">+ User&#39;s are no longer signed out of the client when attending a meeting as a guest.</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">2-Apr-2020</entry>
+            <entry colname="2">1.4.0</entry>
+            <entry colname="3">
+              <p>+ Added an indicator to participant tiles showing users experiencing degraded network performance.</p>
+              <p>* Added a Terms of Service notification to the start/join pages.</p>
+            </entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">26-Mar-2020</entry>
+            <entry colname="2">1.3.0</entry>
+            <entry colname="3">
+              <p>+ Added early access support for Chromebook.</p>
+              <p>+ Added an audio notification on remove or reconnect from a meeting. This notification is only on Chrome browser and the installed desktop client.</p>
+              <p>* Added ability to leave comment on feedback page.</p>
+              <p>* Reworked the Remove button on user tiles. The More button must now be clicked before the option to Remove a User is presented.</p>
+            </entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">19-Mar-2020</entry>
+            <entry colname="2">v1.2.1</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">12-Mar-2020</entry>
+            <entry colname="2">v1.2.0</entry>
+            <entry colname="3">
+              <p>* Improved styling of dial-in numbers; numbers are now in a drop-down.</p>
+              <p>* Improved UI of after-meeting Feedback page.</p>
+              <p>* YOU tile now shows participant’s name.</p>
+              <p>* Changed ‘Video Settings’ label to ‘Settings’ on in-meeting Settings page.</p>
+            </entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">2-Mar-2020</entry>
+            <entry colname="2">v1.1.0</entry>
+            <entry colname="3">Maintenance release. Bug fixes and performance improvements.</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">19-Feb-2020</entry>
+            <entry colname="2">v1.0.4</entry>
+            <entry colname="3">* User Tile icons: The Mute and Remove icon displays are updated. The Remove icon is moved to the top right corner of the User Tile.</entry>
+          </row>
+          <row rowsep="0">
+            <entry colname="1">31-Jan-2020</entry>
+            <entry colname="2">v1.0.0</entry>
+            <entry colname="3">Initial Release</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

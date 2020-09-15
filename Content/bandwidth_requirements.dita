@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Bandwidth_Requirements_v1_1">
+  <title>Bandwidth Requirements</title>
+  <body id="page">
+    <p>Following are the bandwidth requirements for using various features of the MiTeam Meetings application.</p>
+    <section>
+      <title>Upload Bandwidth (Send)</title>
+      <table colsep="1" frame="all" rowsep="1">
+        <tgroup colsep="1" outputclass="FormatA" rowsep="1" cols="4">
+          <colspec colnum="1" colname="1" colwidth="1.363636363636363*"></colspec>
+          <colspec colnum="2" colname="2" colwidth="1*"></colspec>
+          <colspec colnum="3" colname="3" colwidth="1.1818181818181819*"></colspec>
+          <colspec colnum="4" colname="4" colwidth="1.0454545454545454*"></colspec>
+          <thead>
+            <row rowsep="1">
+              <entry colname="1">No. of Participants</entry>
+              <entry colname="2">Audio</entry>
+              <entry colname="3">Video</entry>
+              <entry colname="4">Screen Share</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row rowsep="0">
+              <entry colname="1">
+                <p>2 or more</p>
+              </entry>
+              <entry colname="2">
+                <p>54 kbps</p>
+              </entry>
+              <entry colname="3">
+                <p>1600 kbps</p>
+              </entry>
+              <entry colname="4">
+                <p>1200 kbps</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Download Bandwidth (Receive)</title>
+      <table colsep="1" frame="all" rowsep="1">
+        <tgroup colsep="1" outputclass="FormatA" rowsep="1" cols="4">
+          <colspec colnum="1" colname="1" colwidth="1.3888888888888888*"></colspec>
+          <colspec colnum="2" colname="2" colwidth="1*"></colspec>
+          <colspec colnum="3" colname="3" colwidth="2*"></colspec>
+          <colspec colnum="4" colname="4" colwidth="1.111111111111111*"></colspec>
+          <thead>
+            <row rowsep="1">
+              <entry colname="1">No. of Participants</entry>
+              <entry colname="2">Audio</entry>
+              <entry colname="3">Video</entry>
+              <entry colname="4">Screen Share</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row rowsep="1">
+              <entry colname="1">
+                <p>2-16</p>
+              </entry>
+              <entry colname="2">
+                <p>54 kbps</p>
+              </entry>
+              <entry colname="3">
+                <p>1600 + (( <i>n</i>-2) * 400) kbps</p>
+              </entry>
+              <entry colname="4">
+                <p>1200 kbps</p>
+              </entry>
+            </row>
+            <row rowsep="0">
+              <entry namest="1" nameend="4">
+                <note>
+                  <p>Note: <i>n</i> is the number of participants in a meeting.</p>
+                </note>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <p>The upload and download bandwidth mentioned in the table are the maximum values obtained during testing. The actual values will vary depending on the following factors:</p>
+    <ul>
+      <li>The resolution of the camera used for the meeting.</li>
+      <li>The type of camera used for the meeting.</li>
+      <li>The user’s Internet speed.</li>
+      <li>The actual bandwidth utilization of other activities during the meeting such as desktop sharing or screen sharing.</li>
+    </ul>
+    <note>
+      <p>Using <b>Active Talker</b> further increases the download bandwidth because this feature tile alone requires 1600 kbps of bandwidth.</p>
+    </note>
+    <p>Bandwidth requirements depend on the number of participants in a meeting, and the features that are being used by the participants during the meeting (video, screen share, and so on.)</p>
+    <note type="notice">
+      <p>For example, in a meeting involving 3 participants with only audio and video enabled, bandwidth usage for a single participant is as follows:</p>
+      <ul>
+        <li>Upload bandwidth: 54 kbps + 1600 kbps = 1654 kbps</li>
+        <li>Download bandwidth: 54 kbps + (1600 + (3-2) * 400) kbps = 2054 kbps</li>
+      </ul>
+    </note>
+    <note>
+      <p>When calculating the bandwidth for any meeting involving more than 16 participants, you must keep the number of participants as 16 because you cannot have more than 16 video tiles in a meeting.</p>
+    </note>
+  </body>
+</topic> 

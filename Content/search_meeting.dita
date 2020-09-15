@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Search_a_Meeting_v1_1">
+  <title>Search a Meeting</title>
+  <body id="page">
+    <p>Click the search icon (<image height="20" width="20" href="../Images/30169079.jpg">
+      </image>) at the top of the meetings list. In the Search bar, type the name of the meeting you are searching for. The search field displays a list of matching names as you type the letters.</p>
+    <p><image align="center" height="300" placement="break" width="178" id="image_2" href="../Images/searchmeeting.jpg">
+      </image></p>
+  </body>
+</topic>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____MiTeam_Meetings_Controls_v1_1">
+  <title>MiTeam Meetings Controls</title>
+  <body id="page">
+    <p><image align="center" height="350" placement="break" width="500" href="../Images/30169146.jpg">
+      </image></p>
+    <p>Following are the various controls displayed during an ongoing meeting. Click any of these controls to access it:</p>
+    <ul>
+      <li><image height="35" width="51" href="../Images/30169148.jpg">
+        </image> — Click this icon to leave an ongoing meeting.
+        <note>The other participants will continue to be active in the meeting.</note>
+      </li>
+      <li><image height="20" width="23" href="../Images/30169153.png">
+        </image> — Click this icon alternately to turn on or turn off your camera.</li>
+      <li><image height="21" width="23" href="../Images/30169155.png">
+        </image> — Click this icon alternately to mute or unmute your mic.</li>
+      <li><image height="20" width="24" href="../Images/30169174.png">
+        </image> — Click this icon alternately to start or stop screen sharing during a meeting.</li>
+      <li><image height="20" width="23" href="../Images/30169176.png">
+        </image> — Click this icon to invite more users to an ongoing meeting.</li>
+      <li><image height="23" width="23" href="../Images/30169178.png">
+        </image> — Click this icon to open the Settings menu.</li>
+      <li><image height="27" width="29" id="image_2" href="../Images/activetalkericon.jpg">
+        </image> — Click this icon to switch to Active Talker mode.</li>
+      <li><image height="25" width="25" id="image_4" href="../Images/viewusertilesicon.jpg">
+        </image> — During Active Talker mode, click this icon to switch to User Tiles mode (shown in the image).</li>
+      <li><image height="23" width="27" href="../Images/30169185.png">
+        </image> — Click this icon to toggle on or toggle off the chat window. All the chat messages during a meeting can be viewed in the chat window.</li>
+      <li><image height="25" width="25" id="image_5" href="../Images/infoiconongoingmeetingui.jpg">
+        </image> — Click this icon to view the URL of the meeting, the dial-in number, and the meeting ID.</li>
+      <li><image height="23" width="21" href="../Images/networkdegradation.png">
+        </image> — This icon appears in the User Tile of users encountering issues with the network or an outage during the call. The audio and video communication with these users might be affected during this time. This icon will disappear when the connection with these users is properly re-established.</li>
+      <li><image height="66" width="90" href="../Images/waitinglobbyicon.png">
+        </image> — A registered user will see this prompt during an ongoing meeting to accept or reject the guest users in the <b>Waiting Room</b> into the meeting. Click <b>Accept All</b> to allow these users into the meeting. Click <b>Decline All</b> to prevent these users from joining the meeting. To accept or decline specific users, click the <image height="20" width="20" href="../Images/acceptguestuser.png">
+        </image> icon or the <image height="21" width="20" href="../Images/declineguestuser.png">
+        </image> icon beside their names.</li>
+    </ul>
+    <p>In addition to the various controls mentioned above, there are controls that are displayed on hovering over the User Tile.</p>
+    <p>
+      <note>These controls are displayed only when you join a meeting as a Registered User.</note>
+    </p>
+    <ul>
+      <li>
+        <p><image height="27" width="23" href="../Images/34088739.png">
+          </image> — Hover over a User Tile and click the <image height="27" width="23" href="../Images/34088739.png">
+          </image> icon to mute that user.</p>
+      </li>
+      <li>
+        <p><b>Remove</b>— Hover over a User Tile. The <image width="20" href="../Images/34088753.png">
+          </image> icon is displayed at the top right corner of the tile. Click the <image width="20" href="../Images/34088753.png">
+          </image> icon and click <b>Remove</b> to remove that user from the meeting.</p>
+      </li>
+    </ul>
+  </body>
+</topic>

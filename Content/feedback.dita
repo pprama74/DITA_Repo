@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id2043AD00PVU">
+	<title>Report a Problem and Share Feedback</title>
+	<body>
+		<p>We want to know when you experience any issues while using
+			the MiTeam Meetings application. We also encourage you to share
+			your ideas and suggestions about the application features. Use the
+			following procedure to report a problem or to share feedback.</p>
+		<ol id="ol_1">
+			<li>Access the
+				<b>Report Problem</b> panel by doing
+				the following.
+				<ul id="ul_1">
+					<li>During an ongoing meeting, click
+						<image
+href="../Images/30169178.png"  height="25" width="25" id="image_2"
+/> from the control panel. From the panel that opens, click the
+						<b>Others</b> tab,
+						and then click
+						<b>Report Problem</b>. The
+						<b>Report Problem</b> panel
+						opens.
+					</li>
+					<li>From the MiTeam Meetings home screen, click your avatar and
+						from the panel that opens click
+						<b>Issues &amp; Feedback</b>. The
+						<b>Report
+							Problem</b> panel opens.
+					</li>
+				</ul>
+				<p>
+					<image href="../Images/Reportproblem.jpg"
+align="center" placement="break"  height="350" width="227" id="image_4"
+/>
+				</p>
+			</li>
+			<li>
+				<p>To submit an issue about the application, in the
+					<b>Submit
+						an issue</b> section, enter a title for the issue and provide a
+					brief description of the issue. Click
+					<b>Add Screenshot</b> if you
+					want to attach a screenshot that clarifies the issue. Click
+					<b>Send</b>.
+					For more information on what happens to your problem report after
+					it is submitted, see the FAQ
+					<xref  href="meetings_faq.dita#FAQ_v1_1/problemreport">What happens to my problem report</xref>.
+				</p>
+				<p>To
+					submit a new feature idea or feedback, click
+					<b>Share an idea</b>.
+					You will be redirected to a
+					<xref  href="https://mitelcloudlink.uservoice.com/forums/923077-miteam-meetings" scope="external">Mitel CloudLink Feedback page</xref>in
+					UserVoice, a third-party website where you can submit your ideas.
+					Here, you can also vote on the ideas submitted by other users.
+				</p>
+			</li>
+		</ol>
+	</body>
+</topic>

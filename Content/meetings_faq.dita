@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="FAQ_v1_1"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Frequently Answered Questions</title>
+<body id="page"><ul><li><xref outputclass="fm:" href="#FAQ_v1_1/whatismeetings" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/canmeetingsbeintegrated" /> <ul>
+<li><xref  href="#FAQ_v1_1/micollabspecificfaq">MiCollab Specific FAQs</xref></li>
+<li><xref  href="#FAQ_v1_1/micloudconnectspecificfaq">MiCloud Connect Specific FAQs</xref></li>
+<li><xref  href="#FAQ_v1_1/standalonespecificfaq">Stand-Alone Specific FAQs</xref></li></ul></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/meetingscapacity" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/appnotifications" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/meetingstollfree" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/meetingspresentation" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/greenbordersaroundtiles" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/howdoireportbug" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/dialininformation" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/outlookintegration" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/supporthuddlerooms" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/joinfromexistingroom" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/meetingsrecorded" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/enablecameramicrophonemeetingsdesktop" /> <ul>
+<li><xref  href="#FAQ_v1_1/enablecamerawindows">Windows</xref></li>
+<li><xref  href="#FAQ_v1_1/enablecameramacos">macOS</xref></li></ul></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/enablecameramicrophonemeetingswebapp" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/antimalwareblock" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/installmeetingsinwindows" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/choosespeakerformeetings" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/restoremeetingsaudio" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/screensharingmacos" /></li>
+<li><xref outputclass="fm:" href="#FAQ_v1_1/problemreport" /></li></ul>
+<section id="whatismeetings"><title>What is MiTeam Meetings?</title><p>MiTeam
+Meetings is a CloudLink- based multi-party video solution designed
+for users who want to improve work efficiency and enhance workplace
+communication with seamless transitions between voice, video, and
+chat capabilities for a complete collaboration experience. It enables
+users to access features such as:</p><p><b>Collaborate</b>: Perform
+audio, video, and web sharing</p><p><b>Chat</b>: Hold chat sessions
+and receive chat notifications within a meeting</p><p><b>File Sharing</b>:
+Store and share files</p></section>
+<section id="canmeetingsbeintegrated"><title>Can MiTeam Meeting
+be integrated with my other Mitel products?</title><p>At present,
+MiTeam Meetings is fully integrated only with MiCollab. It is available
+for, and does have some integration with MiCloud Connect. It is
+also available as a stand alone product to all Mitel Customers.</p><ul>
+<li id="micollabspecificfaq"><b>Micollab specific FAQs</b> <ul><li><p><b>Can
+I continue to use MiCollab Audio, Web &amp; Video Conferencing (AWV)?</b></p><p>If
+you have both AWV and MiTeam Meetings installed in your system,
+by default MiTeam Meetings will be the video tool that is launched
+when you click a meeting invite. However, you can still use AWV
+manually.</p></li></ul></li>
+<li id="micloudconnectspecificfaq"><b>MiCloud Connect Specific
+FAQs</b> <ul><li>Custom avatars are not currently supported in MiTeam
+Meetings for MiCloud Connect users</li>
+<li>Chat sessions from MiTeam Meetings also show up in the Teamwork
+Client.</li>
+<li>To join MiTeam Meetings, MiCloud Connect users receive an email
+invitation and use their Connect client credentials to log in.</li>
+<li>MiCloud Connect users can contact Support as described in <xref  href="https://oneview.mitel.com/s/contactsupport" scope="external">Contact Us</xref>.</li></ul></li>
+<li id="standalonespecificfaq"><b>Stand-Alone Specific FAQs</b> <ul>
+<li>Custom avatars are not currently supported in the Stand-Alone
+MiTeam Meetings application</li></ul></li></ul></section>
+<section id="meetingscapacity"><title>What's the capacity for
+MiTeam Meetings?</title><p>For details, see <xref outputclass="fm:" href="scalability.dita#Mitel_Help_Center____Scalability_v1_1" />.</p></section>
+<section id="appnotifications"><title>How does the app notify
+users that they have been invited to a meeting?</title><ul><li>If
+a user has previously used the MiTeam Meetings application, there
+will be an Operating System notification (such as a system tray
+notification in Windows), even if the app is closed.</li>
+<li>A registered user who has CloudLink chat enabled in MiCollab
+will get a notification (<b>Join now</b> button) in the chat conversation
+to join a meeting. The users must have their MiCollab open to see
+the invite notifications.</li>
+<li>A guest user will receive an email invitation.</li></ul></section>
+<section id="meetingstollfree"><title>Can I provide toll-free
+meeting attendance when I invite customers to a meeting?</title><p>Toll-free
+attendance for MiTeam Meetings is not currently supported.</p></section>
+<section id="meetingspresentation"><title>I would like to use
+MiTeam Meetings for presentations and brainstorming sessions. Can
+I use video conferencing in multiple modes?</title><p>Yes, MiTeam
+Meetings has two video modes – video tiles and active speaker (experimental feature).
+You can also enable screenshare at any time.</p></section>
+<section id="greenbordersaroundtiles"><title>What do green borders
+around video tiles represent?</title><p>The green border indicates
+the active speaker.</p></section>
+<section id="howdoireportbug"><title>How do I report a bug or
+submit feedback during a meeting?</title><p>During an ongoing meeting,
+click <image href="../Images/30169178.png"  height="25" width="25"
+/> from the control panel. The <b>Settings</b> panel is displayed.
+Click the <b>Others</b> tab and then click <b>Report Problem</b>.
+Explain about the issue you are facing and click <b>Send</b> to
+submit the issue.Click <b>Share an idea</b> to share a new feature
+idea.</p></section>
+<section id="dialininformation"><title>Where can I find dial-in
+information to call in by phone?</title><p>In the <b>Settings</b> page,
+switch the audio slider to <b>Dial In</b> to view a list of dial-in
+phone numbers. You can also get this information when you click <image
+href="../Images/dialininformation.jpg"  height="20" width="21" /> from
+within the <b>Chat Window</b> panel.</p></section>
+<section id="outlookintegration"><title>Is MiTeam Meetings integrated
+with Outlook Calendar so that I can schedule a meeting directly
+from Outlook?</title><p>Outlook Calendar integration is not currently
+supported.</p></section>
+<section id="supporthuddlerooms"><title>Do you support huddle
+rooms?</title><p>This feature is not supported in this release.
+In this release, support is limited to USB cameras and audio equipment.</p></section>
+<section id="joinfromexistingroom"><title>Can I join a meeting
+from an existing room system?</title><p>This feature is not supported
+in this release.</p></section>
+<section id="meetingsrecorded"><title>Can MiTeam Meetings be recorded?</title><p>MiTeam
+Meetings do not have recording capabilities.</p></section>
+<section id="enablecameramicrophonemeetingsdesktop"><title>How
+do I enable the camera and the microphone for MiTeam Meetings desktop
+application in Windows and Mac OS?</title><p>The option to enable
+the camera and the microphone for MiTeam Meetings desktop application is
+specific to the operating system in which you have deployed the
+application. Click the following links for instructions on enabling
+the camera and the microphone specific to your operating system.</p><p
+    id="enablecamerawindows"><b>Windows</b></p><ul><li><xref  href="https://support.microsoft.com/en-in/help/4468232/windows-10-camera-microphone-and-privacy" scope="external">Windows 10</xref></li></ul><ul>
+<li><b>Windows 7</b> <p><b>Microphone</b> <ol><li>Choose <b>Start</b> > <b>Control
+Panel</b> > <b>Hardware and Sound</b> > <b>Sound</b> > <b>Manage
+audio devices</b>. A panel opens.</li>
+<li>Click: <ol><li>The <b>Recording</b> tab for enabling a microphone.</li>
+<li>The <b>Playback</b> tab for enabling a speaker.</li></ol></li>
+<li>Right-click the device in the list you want to use with MiTeam
+Meetings and then click <b>Properties</b>.</li>
+<li>Click the <b>Advanced</b> tab. Make sure that the two check
+boxes under <b>Exclusive Mode</b> are selected.</li>
+<li>Click <b>OK</b> to save the changes.</li></ol></p></li></ul><p
+    id="enablecameramacos"><b>Mac OS</b></p><ul><li><xref  href="https://support.apple.com/en-ca/guide/mac-help/mchlf6d108da/mac" scope="external">Camera</xref></li>
+<li><xref  href="https://support.apple.com/en-ca/guide/mac-help/mchla1b1e1fe/mac" scope="external">Microphone</xref></li></ul></section>
+<p>If you still face issues with your camera or microphone, or if
+the message <b>Camera is in use by another application or operating
+system is configured to deny camera access</b> displays when you
+log in to a meeting from your MiTeam Meetings Desktop application,
+do either of the following:</p>
+<ul><li>close all other applications that are using your camera
+or microphone</li>
+<li>restart you computer</li></ul>
+<section id="enablecameramicrophonemeetingswebapp"><title>How
+do I enable the camera and the microphone for MiTeam Meetings web
+application in a browser?</title><p>The option to enable the camera
+and the microphone for MiTeam Meetings web application is specific
+to the browser in which you have deployed the application. A common
+prerequisite is that you must have already enabled permission for
+the browser to have access to the camera and microphone.This is
+done from the Control panel/Settings menu of your operating system.
+For more information about how to do this, see the links pertaining
+to your operating system in the FAQ “<b>How do I enable the camera
+and the microphone for MiTeam Meetings desktop application in Windows
+and Mac OS?</b>”.</p><p>After the prerequisite is set, you are prompted
+to choose device permissions for camera and microphone in the <b>Welcome</b> page.
+Click <b>Allow</b> to enable access for the camera and microphone
+or click <b>Don’t Allow</b> to deny access. To change these permissions
+subsequently, follow instructions pertinent to your browser.</p><ul>
+<li><xref  href="https://support.google.com/chrome/answer/2693767" scope="external">Google Chrome</xref></li>
+<li><xref  href="https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions" scope="external">Mozilla Firefox</xref></li>
+<li><xref  href="https://support.apple.com/en-in/guide/safari/ibrwe2159f50/mac" scope="external">Apple Safari</xref></li>
+<li><xref  href="https://support.microsoft.com/en-us/help/4468232/windows-10-camera-microphone-and-privacy" scope="external">Microsoft Edge</xref></li></ul></section>
+<section id="antimalwareblock"><title>Anti-malware programs blocking
+access to camera, speaker, or microphone.</title><p>Instances of
+some anti-malware programs blocking access to the camera on the
+PC have been reported. We have confirmed one such case with the
+anti-malware program 'HitmanPro'. If you face issues with accessing
+the camera or other PC resources, check whether any of these programs
+are running. You must either stop such programs, or if you have
+such programs running, you must whitelist our installed client or
+the browser.</p></section>
+<section id="installmeetingsinwindows"><title>How do I install
+MiTeam Meetings application in the Windows 10 operating system?</title><p>You
+will not be able to install the MiTeam Meetings application in Windows
+10 if the <b>Installing Apps</b> settings is set to <b>Allow apps
+from the Store only</b>. To change this setting, do the following:</p><ol>
+<li>Press <b>Windows key + I</b> to open the Settings app.</li>
+<li>Click <b>Apps</b></li>
+<li>Click <b>Apps &amp; features</b> from the left pane.</li>
+<li>Under <b>Installing apps</b>, expand the drop-down menu and
+choose <b>Turn off app recommendations</b>.</li></ol><p>You can
+now run the setup file of the MiTeam Meetings application to install
+it.</p></section>
+<section id="choosespeakerformeetings"><title>How can I choose
+the speaker for MiTeam Meetings web application in Firefox and Safari
+browsers?</title><p>With Firefox and Safari browsers, the MiTeam
+Meetings web application uses the speaker currently selected as
+the default speaker in the operating system to play the meeting
+audio. Neither the MiTeam Meetings web application nor the browsers
+provide the option of switching to a different speaker to play the
+audio during an ongoing meeting. Hence, in Firefox and Safari browsers,
+to choose a specific speaker for MiTeam Meetings, the user must
+choose that speaker as the default in the default settings of the
+native operating system before joining the meeting. To choose the
+default speaker, follow instructions pertinent to your operating
+system.</p><ul><li><xref  href="https://support.apple.com/en-in/guide/mac-help/mchlp2256/mac" scope="external">Mac OS</xref></li>
+<li><b>Windows</b> <ol><li>In the search box on the taskbar, type <b>Control
+Panel</b>, then select it from the results.</li>
+<li>Select <b>Hardware and Sound</b> from the Control Panel, and
+then select <b>Sound</b>.</li>
+<li>In the <b>Playback</b> tab, right-click the listing for your
+audio device, select <b>Set as Default Device</b>, and then select <b>OK</b>.</li></ol></li></ul></section>
+<section id="restoremeetingsaudio"><title>How can I restore meeting
+audio after reloading the MiTeam Meetings web application during
+a meeting in Firefox browser?</title><p>After joining a meeting
+via the MiTeam Meetings web application using Firefox, if you reload
+the Meetings application during the meeting, you may lose the meeting
+audio and the <b>Autoplay</b> icon (<image href="../Images/autoplaymozilla.png"
+ height="20" width="22" />) will be displayed in the address bar.
+This is because, by default, Firefox blocks all voice media from
+playing. To restore the meeting audio you must modify the <b>Autoplay</b> settings
+in Firefox. See <xref  href="https://support.mozilla.org/en-US/kb/block-autoplay" scope="external">https://support.mozilla.org/en-US/kb/block-autoplay</xref> for
+more information.</p></section>
+<section id="screensharingmacos"><title><b>How can I enable screen
+sharing in macOS?</b></title><p>On macOS devices, when you proceed
+to share your screen for the first time during a meeting, a system
+prompt appears: <b>“ MiTeam Meetings” would like to record this
+computer’s screen.</b> This is because of the increased security
+and permissions in macOS. Hence, you must allow MiTeam Meetings
+access to <b>Screen Recording</b> to share your screen during a
+meeting on macOS devices.</p><p>To do this,</p><ol><li>In the prompt
+dialog box, choose <b>Open System Preferences</b> and enable <b>Screen
+Recording</b> for MiTeam Meetings by using the instructions in <xref  href="https://support.apple.com/en-in/guide/mac-help/mchld6aa7d23/mac" scope="external">Control access to screen recording on Mac</xref>.
+After you save the changes, a window opens asking you to quit MiTeam
+Meetings application.</li>
+<li>Click <b>Quit Now</b> and then reopen MiTeam Meetings. You can
+now join the meeting and share your screen.</li></ol><note>If you
+choose to <b>Deny</b> MiTeam Meetings access during the initial
+prompt or if the <b>Screen Recording</b> access becomes disabled,
+you must go into your OS <b>System Preferences</b> to allow access
+by using the instructions in <xref  href="https://support.apple.com/en-in/guide/mac-help/mchld6aa7d23/mac" scope="external">Control access to screen recording on Mac</xref> and
+then repeat step 2.</note></section>
+<section id="problemreport"><title><b>What happens to my problem
+report?</b></title><p>To help troubleshoot your report quickly,
+please provide as much information as possible. Specific details
+are needed to properly investigate an issue. Date, time, device
+information, and logs are collected as part of your problem report.
+After you report an issue, the onsite Support Contact for your account will
+receive an email notifying that you have reported a problem. The
+onsite Support Contact will investigate the issue. They might reach
+out to you for additional information. If your Support Contact needs assistance
+to resolve your issue, they will escalate through their standard
+support procedures. Please follow up directly with your onsite Support
+Contact for updates about your report.</p></section></body></topic>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="Mitel_Help_Center____Create_a_Meeting_v1_1"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Create a Meeting</title>
+<body id="page"><p>A registered user can create an ad hoc meeting
+in the MiTeam Meetings application. To create an ad hoc meeting,
+follow these steps;</p>
+<ol><li><p>Click <b>Start Now</b> from Meetings home screen.</p><p><image
+href="../Images/startnow.jpg" align="center" placement="break" 
+height="300" width="211" id="image_2" /></p></li>
+<li><p>A panel opens that contains the default Meeting title, the
+invite link to the Meeting, and the Dial in information. In the
+Meeting title bar, specify a title for the meeting. If required,
+you can change the title of the meeting.</p><note>It is highly recommended
+that a meeting be given a unique humanly identifiable name that
+is easy to remember for the participants. This will enable registered
+users to easily identify which meeting space to use for their collaboration
+and facilitate meeting searches.</note><p>Click <b>Copy to clipboard</b> to
+copy the meeting details and paste it elsewhere.</p><p><image href="../Images/startnowinfopanel.jpg"
+align="center" placement="break"  height="300" width="228" id="image_4"
+/></p></li>
+<li><p>Ensure that all the information entered is correct and click <b>Enter</b> to
+start the meeting. Click <b>Cancel</b> to cancel the meeting. If
+you edit the meetings title:</p><ul><li>click <b>Save</b> to save
+the updated meeting title.</li>
+<li>click <b>Save and enter</b> to start the meeting with the updated
+title.</li></ul></li></ol>
+<note>To add participants to an ad hoc meeting, click the <b>Invite</b> (<image
+href="../Images/34083204.png"  height="18" width="20" id="image_5"
+/>) icon from the control panel during an ongoing meeting.</note>
+<note type="caution"><ul><li>Customers should exercise caution
+to prevent accidental disclosure of Meeting Access Codes.</li>
+<li>Mitel recommends that at least one participant in a meeting
+use the Mitel Meetings client to provide visibility to other participants
+in the meeting.</li></ul><p>For more information, see <xref  href="https://www.mitel.com/document-center/security/technical-papers/all-releases/en/miteam-meetings-security-guidelines-release-100-version-1" scope="external">MiTeam Meetings Security Guidelines</xref>.</p></note></body></topic>

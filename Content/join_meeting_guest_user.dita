@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Join_a_Meeting_as_a_Guest_User_v1_1">
+  <title>Join a Meeting as a Guest User</title>
+  <body id="page">
+    <p>As a Guest user, you can join a meeting directly through the meeting invite received from the meeting host in Outlook or through a link shared via e-mail or chat.</p>
+    <p><image align="center" height="250" placement="break" width="364" id="image_2" href="../Images/guestuserinvite.jpg">
+      </image></p>
+    <p>To join a meeting as a Guest user, use the following procedure:</p>
+    <ol>
+      <li>
+        <p>Click the meeting invite link you received. The MiTeam Meetings web application is launched, and the <b>Welcome</b> page opens.</p>
+      </li>
+      <li>
+        <p>You must enter your name and email address, and specify the audio and video setting in the <b>Welcome</b> page and click <b>Enter waiting room</b>.</p>
+        <note>You can preview the video, find the dial-in numbers and the meeting ID, and download the MiTeam Meetings desktop application from the <b>Welcome</b> page.</note>
+        <note>To resolve issues you face while enabling microphone, speaker, or camera, see the FAQ <xref href="meetings_faq.dita#Mitel_Help_Center____Frequently_Answered_Questions_v1_1/enablecameramicrophonemeetingsdesktop">How do I enable the camera and the microphone for MiTeam Meetings desktop application in Windows and Mac OS?</xref> or <xref href="meetings_faq.dita#Mitel_Help_Center____Frequently_Answered_Questions_v1_1/enablecameramicrophonemeetingswebapp">How do I enable the camera and the microphone for MiTeam Meetings web application in a browser?</xref>.</note>
+        <p><image align="center" height="300" placement="break" width="434" id="image_4" href="../Images/welcomepageguestuser.jpg">
+          </image></p>
+      </li>
+      <li>
+        <p>You must wait until any registered user who has already joined the meeting accepts you as a Guest user in the meeting. Click <b>Report Problem</b> to report any issues you face while joining the meeting.</p>
+        <p><image align="center" height="250" placement="break" width="466" id="image_6" href="../Images/waitingroom.jpg">
+          </image></p>
+      </li>
+      <li>
+        <p>After a registered user accepts you, click <b>Enter now</b> to join the meeting.</p>
+        <p><image align="center" height="250" placement="break" width="456" id="image_8" href="../Images/guestaccessgranted.jpg">
+          </image></p>
+      </li>
+    </ol>
+  </body>
+</topic>

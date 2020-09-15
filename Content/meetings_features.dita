@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____MiTeam_Meetings_Features_v1_1">
+  <title>MiTeam Meetings Features</title>
+  <body id="page">
+    <p>For more information about joining a meeting, creating a meeting, searching for a meeting, the various controls available to you during an ongoing meeting, and other basic features of MiTeam Meetings application, see the following topics:
+      <ul otherprops="HideHTML5">
+        <li><xref href="create_meeting.dita#Mitel_Help_Center____Create_a_Meeting_v1_1" outputclass="fm:"></xref></li>
+        <li><xref href="schedule_meeting.dita#Mitel_Help_Center____Schedule_a_Meeting_v1_1" outputclass="fm:"></xref></li>
+        <li><xref href="search_meeting.dita#Mitel_Help_Center____Search_a_Meeting_v1_1" outputclass="fm:"></xref></li>
+        <li><xref href="delete_meeting.dita#id2063GM0C05Z" outputclass="fm:"></xref></li>
+        <li><xref href="join_meeting_registered_user.dita#Mitel_Help_Center____Join_a_Meeting_from_My_Meetings_List_v1_1" outputclass="fm:"></xref></li>
+        <li><xref href="join_meeting_guest_user.dita#Mitel_Help_Center____Join_a_Meeting_as_a_Guest_User_v1_1" outputclass="fm:"></xref></li>
+        <li><xref href="miteam_meetings_controls.dita#Mitel_Help_Center____MiTeam_Meetings_Controls_v1_1" outputclass="fm:"></xref></li>
+        <li><xref href="screen_share.dita#id2063GN0A0Y4" outputclass="fm:"></xref></li>
+        <li><xref href="manage_meetings_settings.dita#Mitel_Help_Center____Manage_Meetings_Settings_v1_1" outputclass="fm:"></xref></li>
+        <li><xref href="user_type.dita#id2063H000XHS" outputclass="fm:"></xref></li>
+      </ul>
+    </p>
+  </body>
+</topic>

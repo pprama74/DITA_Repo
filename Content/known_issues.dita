@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Meetings_Known_Issues_v1_1">
+  <title>Known Issues</title>
+  <body id="page">
+    <ul>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/screensharenotworkingissue" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/audionotificationissue" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/screensharesafariissue" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/bluetoothaudioissue" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/removingusbmacosissue" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/browserspeakerissues" outputclass="fm:"></xref>
+        <ul>
+          <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/macosspeakerissue" outputclass="fm:">Mac OS</xref></li>
+          <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/windowsspeakerissue" outputclass="fm:">Windows</xref></li>
+        </ul>
+      </li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/firefoxpermissionissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/closinglaptoplidissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/audiodelayissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/pstnunknownissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/inviteinspamissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/sendlocationissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/webapplicationreconnectissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/loggingoutbrowserissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/meetingsvidyaissue" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/micollabissues" outputclass="fm:"></xref></li>
+      <li><xref href="#Mitel_Help_Center____Meetings_Known_Issues_v1_1/troubleshootingcameraissues" outputclass="fm:"></xref></li>
+    </ul>
+    <section id="screensharenotworkingissue">
+      <title>Screen sharing may not work after a meeting reconnects</title>
+      <p>You might be unable to share your screen or view a screen being shared by someone else in a meeting after the app has reconnected following degraded network conditions. As a workaround for this issue, leave and re-join the meeting.</p>
+    </section>
+    <section id="audionotificationissue">
+      <title>Audio notification does not play on remove or reconnect from meeting</title>
+      <p>When a user is removed or reconnects to a meeting while using Safari or Firefox browser, they will not hear the audible beep notification. This feature currently only works in Chrome browser and the installed MAC and Windows clients.</p>
+    </section>
+    <section id="screensharesafariissue">
+      <title>Sharing your screen is not supported via the Safari Browser</title>
+      <p>On a MacOS device, you cannot share your screen from Safari browser although you can view screens shared by other people. To share your screen from a Mac OS device, download the MiTeam Meetings app or use another browser such as Chrome or Firefox.</p>
+    </section>
+    <section id="bluetoothaudioissue">
+      <title>Issues with Bluetooth audio devices</title>
+      <p>Some Bluetooth audio devices might not work as expected with certain browsers. For example, Apple AirPods may not work with Mozilla Firefox. For a list of supported Bluetooth devices on different browsers, see Supported Headsets under <xref href="system_requirements.dita#Mitel_Help_Center____System_Requirements_1_v1_1">System Requirements</xref>.</p>
+    </section>
+    <section id="removingusbmacosissue">
+      <title>Removing a USB connected device on MacOS</title>
+      <p>On devices running MacOS such as a Macbook, it may not be possible to switch to an alternative camera or microphone after disconnecting a USB-connected camera or microphone during an active meeting. As a workaround for this this issue, leave and re-join the meeting.</p>
+    </section>
+    <section id="browserspeakerissues">
+      <title>Firefox and Safari browsers do not allow the user to choose a different speaker</title>
+      <p>With Firefox and Safari browsers, the MiTeam Meetings web application uses the speaker currently selected as the default speaker in the operating system to play the meeting audio. Neither the MiTeam Meetings web application nor the browsers provide the option of switching to a different speaker to play the audio during an ongoing meeting. Hence, in Firefox and Safari browsers, to choose a specific speaker for MiTeam Meetings, the user must choose that speaker as the default in the default settings of the native operating system before joining the meeting. To choose the default speaker, follow instructions pertinent to your operating system.</p>
+      <ul>
+        <li id="macosspeakerissue"><b><xref href="https://support.apple.com/en-in/guide/mac-help/mchlp2256/mac" scope="external">Mac OS</xref></b></li>
+        <li id="windowsspeakerissue"><b>Windows</b>
+          <ol>
+            <li>In the search box on the taskbar, type <b>Control Panel</b>, then select it from the results.</li>
+            <li>Select <b>Hardware and Sound</b> from the Control Panel, and then select <b>Sound</b>.</li>
+            <li>In the <b>Playback</b> tab, right-click the listing for your audio device, select <b>Set as Default Device</b>, and then select <b>OK</b>.</li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+    <section id="firefoxpermissionissues">
+      <title>Firefox browser permissions issues</title>
+      <p>When joining a meeting with camera or microphone permissions set to none, you will not be able to select a camera or microphone. Users will need to re-join the meeting and select camera 1 from the list which should re-prompt for permissions allowing both the camera and microphone to work. There is a related issue that can happen when a computer has 2 cameras and the first one is in use. When this happens it will prompt for permission on the second camera but not allow it to be selected. In this case the user will need to back out of the meeting and re-join with the second camera selected or close out the other application using the first camera.</p>
+    </section>
+    <section id="closinglaptoplidissues">
+      <title>Closing the laptop lid does not end a meeting</title>
+      <p>During an ongoing meeting, if you close the laptop lid, you remain connected to the meeting.If the MiTeam Meetings application is frozen and does not reconnect after the device wakes up, close the browser tab and re-join the meeting if it is still ongoing. If your windows settings are set to &#39;Do Nothing&#39; when the laptop lid is closed then the Camera and Microphone will stay active.</p>
+    </section>
+    <section id="audiodelayissues">
+      <title>Slight audio delay for meetings hosted in the European cloud</title>
+      <p>A mild additional audio delay might be experienced on meetings hosted in the European cloud. Because all users experience the same amount of incremental delay, this may not be noticeable.</p>
+    </section>
+    <section id="pstnunknownissues">
+      <title>A PSTN caller may be &#39;Unknown&#39; if multiple PSTN callers have the same calling line identification</title>
+      <p>In some enterprises, all outgoing PSTN calls may share the same calling line identification (the &#39;business number&#39; for example). If two or more users who share the same calling line identification join the same MiTeam Meeting at the same time, one of the users will have the correct phone number and the other users will be indicated as &#39;Unknown&#39;. The &#39;Unknown&#39; users can still participant effectively in the meeting.</p>
+    </section>
+    <section id="inviteinspamissues">
+      <title>Meeting invitations may end up in spam</title>
+      <p>To invite an external user to a meeting, type the user&#39;s email address in the Search bar of the <b>Invite Participants</b> dialog, or <b>Start Now</b>, or <b>Schedule</b> dialogs. The search field displays a drop-down list containing the email address you entered. Click the email address, and click <b>Invite</b>. An invitation is sent directly to this email address. In some cases, the invite sent may be flagged as spam in the invitee’s mailbox; hence, always ask invitees to check their spam folder if they do not find an invite.</p>
+    </section>
+    <section id="sendlocationissues">
+      <title>Send location does not work in the installed MiTeam Meetings application</title>
+      <p>The location sending feature does not work in the installed MiTeam Meetings application. You can elect to use the browser application or type out your address.</p>
+    </section>
+    <section id="webapplicationreconnectissues">
+      <title>The web application may continue to attempt to launch the installed application on other devices or after it has been uninstalled</title>
+      <p>After you download and install the MiTeam Meetings application, subsequent attempts to join a meeting in the browser application will attempt to launch the installed application. This will happen on every device that you log in to; therefore if you have the application installed on some devices then you will need to use the link presented by the browser to join using the web application. Also, if you uninstall the application from your device, the browser will still attempt to launch it. There is a setting under your user profile which controls this behaviour.</p>
+    </section>
+    <section id="loggingoutbrowserissues">
+      <title>Logging out in one browser tab causes logout in all browser tabs</title>
+      <p>While multiple browser tabs are open in the MiTeam Meetings application, logging out from any one of them causes logout from all the tabs. Any subsequent interaction in the other tabs will fail or will result in a redirect to the initial page of the application.</p>
+    </section>
+    <section id="meetingsvidyaissue">
+      <title>MiTeam Meetings detected by Vidyo Connect solution</title>
+      <p>If your enterprise also uses the &#39;Vidyo Connect&#39; solution or has Vidyo connected to meeting room hardware, the Vidyo solution might incorrectly classify MiTeam Meetings in your calendar as Vidyo meetings. It is not possible to connect to MiTeam Meetings application using Vidyo clients or hardware.</p>
+    </section>
+    <section id="micollabissues">
+      <title>Micollab Specific Issues</title>
+      <ul>
+        <li><b>Registered users get a chat message on invite, not an email message.</b>
+          <p>When you type a name, or an email address in the Search bar of the <b>Invite Participants</b> dialog, or <b>Start Now</b>, or <b>Schedule</b> dialogs, the search bar displays a drop-down list containing the matching registered users in the account. When you select a user, and click <b>Invite</b>, then a meeting invite is sent as a chat message to their MiCollab client, not as an email; therefore, users will see the invitation as an incoming chat message in the MiCollab client.</p>
+        </li>
+        <li><b>Clicking on &#39;Meetings&#39; in the installed MiCollab client may cause the installed MiTeam Meetings application to leave a meeting</b>
+          <p>If you click <b>Meetings</b> menu in the MiCollab client application installed on your system while this application is being used in a meeting, the home page of the MiCollab client application changes, and the application exits the meeting. If this happens, you must re-join the meeting and take care not to click the <b>Meetings</b> menu in the MiCollab client. The browser application creates an additional browser tab under these conditions.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="troubleshootingcameraissues">
+      <title>Troubleshooting Camera issues</title>
+      <p>First start by following the steps below to make sure your camera is enabled for use:</p>
+      <ul>
+        <li><xref href="meetings_faq.dita#Mitel_Help_Center____Frequently_Answered_Questions_v1_1/enablecameramicrophonemeetingsdesktop">MiTeam Meetings Desktop application</xref></li>
+        <li><xref href="meetings_faq.dita#Mitel_Help_Center____Frequently_Answered_Questions_v1_1/enablecameramicrophonemeetingswebapp">Browser based MiTeam Meetings</xref></li>
+      </ul>
+      <p>Next check to make sure your camera is working outside of the Miteam Meetings application:</p>
+      <ol>
+        <li>Test that the camera using an installed application other than Miteam Meetings</li>
+        <li>If you do not have another application installed that uses a camera, then you can test using a browser-based camera test utility. There are may different ones available, please choose one to use from an <xref href="https://www.google.com/search?sxsrf=ALeKk02eG1It8aymBiFyqmbjrQKtRnDuHA%3A1586371420915&amp;source=hp&amp;ei=XBuOXoPgNYbC-gST_5ioCw&amp;q=video+camera+test&amp;oq=video+camera+test&amp;gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoHCCMQ6gIQJzoECCMQJzoFCAAQkQI6BQgAEIMBOgQIABBDOgQIABAKOgcIABCDARAKOgcIABAUEIcCSigIFxIkMGcxMDNnMTYxZzk0ZzgxZzg0Zzg1Zzk0Zzg2ZzgxZzg1Zzk2ShsIGBIXMGcxZzFnMWcxZzFnMmcyZzJnMWc1ZzNQ3iBYyFxg_G9oBXAAeACAAZwBiAHSDZIBBDE5LjGYAQCgAQGqAQdnd3Mtd2l6sAEK&amp;sclient=psy-ab&amp;ved=0ahUKEwiD_peIvtnoAhUGoZ4KHZM_BrUQ4dUDCAk&amp;uact=5" scope="external">internet search</xref>.</li>
+      </ol>
+      <p>If the camera does not work in either the installed application or browser test, then it is likely the camera is at fault. You should try a different camera. The MiTeam Meetings application should work with virtually any built in or USB connected camera. There are some software based cameras that we know do have issues.</p>
+      <p>Below is a list of those cameras that do not work:</p>
+      <ul>
+        <li>Droidcam</li>
+      </ul>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id2063GM0C05Z">
+  <title>Delete or Remove a Meeting</title>
+  <body>
+    <p>A meeting creator has the option of deleting the meeting. Both meeting creators and participants have the option of removing the meeting from the <b>My meetings</b> list.</p>
+    <section>
+      <title>To delete a meeting</title>
+      <p>To delete a meeting for which you are the creator:</p>
+      <ol>
+        <li>From your <b>My meetings</b> list in the MiTeam Meetings home screen, right-click the meeting you want to delete. A panel opens.
+          <p><image align="center" height="250" placement="break" width="293" href="../Images/deletemeeting.jpg">
+            </image></p>
+        </li>
+        <li>Click <b>Delete meeting</b>. From the confirmatory panel that appears, click <b>Delete meeting</b>. The meeting will be deleted, along with all associated chats and files, from your <b>My meetings</b> list, and from the <b>My meetings</b> list of all participants of the meeting.
+          <p><image align="center" height="150" placement="break" width="431" href="../Images/confirmdeletemeeting.jpg">
+            </image></p>
+        </li>
+      </ol>
+    </section>
+    <section>
+      <title>To remove a meeting from the My meetings list</title>
+      <p>Both meeting creators and participants can remove a meeting from their <b>My meetings</b> list.</p>
+      <p>To remove a meeting from your My meetings list:</p>
+      <ol>
+        <li>From your <b>My meetings</b> list in the MiTeam Meetings home screen, right-click the meeting you want to remove. A panel opens.</li>
+        <li>To remove the meeting from your list, click <b>Remove from list</b>. The meeting will be removed from your <b>My meetings</b> list.
+          <p><image align="center" height="200" placement="break" width="303" href="../Images/removemeeting.jpg">
+            </image></p>
+        </li>
+      </ol>
+      <p>After you remove a meeting from you <b>My meetings</b> list, you will not see the meeting in your list, and you will not receive any notifications regarding this meeting.</p>
+      <p>All others will continue to be part of the meeting, and the meeting will be listed in their <b>My meetings</b> list. The existing chat messages sent by you will continue to be visible to them in their chat conversation history.</p>
+      <p>You will be able to join the meeting again and receive notifications if you are invited to this meeting, and accept the invitation. After you join the meeting, the meeting will again be listed in the <b>My meetings</b> list of your MiTeam Meetings application.</p>
+    </section>
+  </body>
+</topic>

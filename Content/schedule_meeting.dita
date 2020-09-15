@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="Mitel_Help_Center____Schedule_a_Meeting_v1_1"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Schedule a Meeting</title>
+<body id="page"><p>A registered user can schedule a meeting, that
+is, create a scheduled meeting in the MiTeam Meetings application.
+To create a scheduled meeting, follow these steps:</p>
+<ol><li><p>In the Meetings home screen, click <b>Schedule</b>. The <b>Schedule
+a meeting</b> panel opens.</p><p><image href="../Images/schedule.jpg"
+align="center" placement="break"  height="300" width="211" id="image_3"
+/></p></li>
+<li><p>In the Meeting title bar, specify a title for the meeting. <note>It
+is highly recommended that a meeting be given a unique humanly identifiable
+name that is easy to remember for the participants. This will enable
+registered users to easily identify which meeting space to use for
+their collaboration and facilitate meeting searches.</note></p><p><image
+href="../Images/scheduleinfopanel.jpg" align="center" placement="break"
+ height="300" width="296" id="image_5" /></p></li>
+<li><p>Click <b>Calendar</b> and from the drop-down list, choose
+the calendar to which you want to add the meeting invite.</p></li>
+<li><p>You can add both registered users and guest users as participants
+for a meeting.You can add a maximum of 100 participants.</p><ol><li><p>To
+add registered users to a meeting:</p><ol><li><p>In the Search bar,
+type the name of the user you are searching for. The search field
+displays a list of registered users whose names or e-mail addresses
+match the letters that you type.</p></li>
+<li><p>Click the name to add the user as a participant to the meeting.</p></li></ol></li>
+<li><p>To add a guest user to a meeting:</p><ol><li><p>In the Search
+bar, type the email address of the participant you want to add to
+the meeting. Note that you must type the exact e-mail address of
+the participant you want to add. The e-mail address you type appears
+in the search field.</p></li>
+<li><p>Click the e-mail address to add the user as a participant
+to the meeting.</p></li></ol></li></ol></li>
+<li><p>Click <b>Add to Calendar</b>. The Scheduling proceeds based
+on the calendar type you selected from the <b>Calendar</b> drop-down list.</p><ol>
+<li><p>Default Calendar (.ics download) – downloads an ICS file
+with meeting join details, title, and participants that can be opened
+in your default calendar app (such as Outlook desktop).</p></li>
+<li><p>Google Calendar – opens a new tab in Gmail with a prepopulated
+calendar invite with meeting join details, title, and participants.</p></li>
+<li><p>Exchange / Office 365 – opens a new tab in Office 365 with
+a prepopulated calendar invite with meeting join details and title;
+but does not carry over the participants. You must add the participants
+directly in the open calendar in Office 365.</p></li>
+<li><p>Outlook.com – opens a new tab in Office 365 with a prepopulated
+calendar invite with meeting join details and title; but does not
+carry over the participants. You must add the participants directly
+in the open calendar in Outlook.com.</p></li></ol></li></ol>
+<note type="caution"><ul><li>Customers should exercise caution
+to prevent accidental disclosure of Meeting Access Codes.</li>
+<li>Mitel recommends that at least one participant in a meeting
+use the Mitel Meetings client to provide visibility to other participants
+in the meeting.</li></ul><p>For more information, see <xref  href="https://www.mitel.com/document-center/security/technical-papers/all-releases/en/miteam-meetings-security-guidelines-release-100-version-1" scope="external">MiTeam Meetings Security Guidelines</xref>.</p></note></body></topic>

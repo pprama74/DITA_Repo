@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Getting_Started_with_MiTeam_Meetings_v1_1">
+  <title>Getting Started with MiTeam Meetings</title>
+  <body id="page">
+    <p>Welcome to MiTeam Meetings! The following articles will help you install, register, and log in to the MiTeam Meetings application, utilize the Home screen, and learn about known issues.</p>
+    <ul otherprops="HideHTML5">
+      <li><xref href="what_is_meetings.dita#Mitel_Help_Center____What_is_MiTeam_Meetings_v1_1" outputclass="fm:"></xref></li>
+      <li><xref href="register_meetings.dita#Mitel_Help_Center____Register_Your_MiTeam_Meetings_Application_v1_1" outputclass="fm:"></xref></li>
+      <li><xref href="log_in_log_out.dita#Mitel_Help_Center____Log_in_Log_out_v1_1" outputclass="fm:"></xref></li>
+      <li><xref href="tour_home_screen.dita#Mitel_Help_Center____Tour_of_the_Home_Screen_2_v1_1" outputclass="fm:"></xref></li>
+      <li><xref href="known_issues.dita#Mitel_Help_Center____Meetings_Known_Issues_v1_1" outputclass="fm:"></xref></li>
+      <li><xref href="release_notes.dita#Mitel_Help_Center____Meetings_Release_Notes_v1_1" outputclass="fm:"></xref></li>
+    </ul>
+  </body>
+</topic>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center___MiTeam_Meetings_Online_Help">
+	<title>MiTeam Meetings Online Help</title>
+	<body>
+		<ul otherprops="HideHTML5">
+			<li>
+				<xref href="getting_started.dita#Mitel_Help_Center____Getting_Started_with_MiTeam_Meetings_v1_1" outputclass="fm:"></xref>
+			</li>
+			<li>
+				<xref href="meetings_features.dita#Mitel_Help_Center____MiTeam_Meetings_Features_v1_1" outputclass="fm:"></xref>
+			</li>
+			<li>
+				<xref href="feedback.dita">Report a Problem and Share Feedback</xref>
+			</li>
+		</ul>
+	</body>
+</topic>

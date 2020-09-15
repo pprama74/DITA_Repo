@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../../Uncleaned/MiTeam_Meetings_Dita_Uncleaned/Content/MiTeam_Meetings/technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Scalability_v1_1">
+  <title>Scalability</title>
+  <body id="page">
+    <table colsep="1" frame="all" rowsep="1">
+      <tgroup colsep="1" outputclass="FormatA" rowsep="1" cols="2">
+        <colspec colwidth="86*" colnum="1" colname="1"></colspec>
+        <colspec colwidth="14*" colnum="2" colname="2"></colspec>
+        <tbody>
+          <row rowsep="1">
+            <entry colname="1">Maximum number of participants supported in a meeting</entry>
+            <entry colname="2">100</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">Maximum number of video participants supported in a meeting</entry>
+            <entry colname="2">16</entry>
+          </row>
+          <row rowsep="1">
+            <entry colname="1">Maximum duration of a meeting</entry>
+            <entry colname="2">20 hours</entry>
+          </row>
+          <row rowsep="0">
+            <entry colname="1">Maximum file size supported per participant in a meeting</entry>
+            <entry colname="2">10 MB</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

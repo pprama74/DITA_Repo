@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Manage_Meetings_Settings_v1_1">
+	<title>Manage Meetings Settings</title>
+	<body id="page">
+		<p>During an ongoing meeting, as a user, you can personalize the settings for the meeting by clicking
+			<image height="21" width="20" href="../Images/30169178.png">
+			</image> from the control panel. You can change the audio and video settings; report a problem with the application; and view the online help documentation, the privacy policy, and the End User License Agreement.
+		</p>
+		<p>You can personalize the preferred settings by performing the following procedure:</p>
+		<ol>
+			<li>Click
+				<image height="21" width="20" href="../Images/30169178.png">
+				</image>. The
+				<b>Settings</b> panel is displayed.
+				<p>
+					<image align="center" height="300" placement="break" width="268" id="image_2" href="../Images/Settingspanel.jpg">
+					</image>
+				</p>
+			</li>
+			<li>
+				<p>Under
+					<b>Video Settings</b>, choose the preferred camera from the drop-down list.
+				</p>
+			</li>
+			<li>
+				<p>Under
+					<b>Audio Settings</b>, choose the preferred microphone and speaker from the respective drop-down lists.
+				</p>
+			</li>
+			<li>
+				<p>Click the
+					<b>Dial In</b> tab to view the dial-in information about the ongoing meeting.
+				</p>
+			</li>
+		</ol>
+		<p>To report a problem you encountered during a meeting or to share your ideas and feature suggestions about the application, see
+			<xref href="feedback.dita">Report a Problem and Share Feedback</xref>.
+		</p>
+		<p>To refer the online documentation, privacy policy, and the End User License Agreement; use the following procedure.</p>
+		<ol>
+			<li>Click
+				<image height="21" width="20" id="image_9" href="../Images/30169178.png">
+				</image>. From the panel that opens, click the
+				<b>Others</b> tab.
+				<p>
+					<image align="center" height="150" placement="break" width="214" id="image_10" href="../Images/otherspanel.jpg">
+					</image>
+				</p>
+			</li>
+			<li>Click the
+				<b>About</b> tab to view the links to the online help, the privacy policy, and the End User License Agreement.
+				<p>
+					<image align="center" height="300" placement="break" width="247" id="image_8" href="../Images/aboutmeetings.jpg">
+					</image>
+				</p>
+			</li>
+		</ol>
+	</body>
+</topic>

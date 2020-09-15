@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id2063GN0A0Y4">
+  <title>Screen Sharing</title>
+  <body>
+    <p>During a meeting, you can share your screen with the other participants in the meeting. This enables you to show any media including documents, presentations, images, and videos, on your device to your colleagues or clients without having to send them these files. Following are the steps for sharing your screen in MiTeam Meetings.</p>
+    <ol>
+      <li>During an ongoing meeting, click the <b>Share</b> icon (<image height="20" width="24" href="../Images/30169174.png">
+        </image>)from the control panel. The <b>Share your screen</b> prompt window opens.</li>
+      <li>You will be prompted to select <b>Your Entire Screen</b>, <b>Application Window</b>, or <b>Chrome Tab</b> to share from the prompt window.
+        <ul>
+          <li>If you choose to share the entire screen, your entire desktop will be shared and displayed to all participants. You can toggle between multiple applications or windows during the meeting, and if these are displayed on your screen, they will be displayed on the screens of the participants.</li>
+          <li>If you chose to share an application, only that application will be shared and displayed in the meeting. You can toggle between multiple applications or windows during the meeting, but these will not be displayed to the participants.</li>
+          <li>If you choose to share a Chrome tab, only that tab in your Chrome browser will be shared and displayed in the meeting. You can toggle between other tabs in Chrome, but these will not be displayed to the participants.</li>
+        </ul>
+      </li>
+      <li>Click the required option and click <b>Share screen</b> to start sharing. The <b>Share</b> icon (<image height="20" width="24" href="../Images/30169174.png">
+        </image>) turns green and a green <b>Sharing</b> banner appears at the bottom of your user tile when you start sharing. Click <image height="11.039pt" width="11.039pt" href="../Images/cancelsharing.jpg">
+        </image> in the top right corner of the <b>Share your screen</b> window to cancel the sharing before the sharing begins.</li>
+      <li>After you start sharing, click the <b>Stop Share</b> icon (<image height="20" width="22" href="../Images/stopsharing.jpg">
+        </image>) from the control panel to stop the sharing.</li>
+    </ol>
+  </body>
+</topic>

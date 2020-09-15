@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Mitel_Help_Center____Join_a_Meeting_from_My_Meetings_List_v1_1">
+  <title>Join a Meeting as a Registered User</title>
+  <body id="page">
+    <p>As a registered user, you can join a meeting directly from the meeting invite received in Outlook or the <b>Join now</b> message received in MiCollab chat, or by clicking on the meeting from the <b>My meetings</b> section of your MiTeam Meetings application.</p>
+    <note>For a meeting to be displayed in your <b>My meetings</b> section, you must have joined that meeting at least once.</note>
+    <p>To join a meeting directly from the meeting invite or the <b>Join now</b> message in MiCollab chat, use the following procedure:</p>
+    <ol>
+      <li>Click the meeting invite link or the <b>Join now</b> message. The MiTeam Meetings web page opens.
+        <ol>
+          <li>If you have the MiTeam Meetings desktop application installed, the web page will prompt you to open the desktop application. For this prompt to appear, you must have selected the <b>Always launch meetings links in desktop app</b> check box in the <b>Settings</b> menu of the desktop application.
+            <note>
+              <p>To select the <b>Always launch meetings links in desktop app</b> check box, use the following steps:</p>
+              <ol>
+                <li>Open the MiTeam Meetings desktop application.</li>
+                <li>Click your Avatar.</li>
+                <li>Click <b>Settings</b>. In the <b>General</b> tab, select the <b>Always launch meetings links in desktop app</b> check box.
+                  <p><image align="center" height="100" placement="break" width="384" id="image_2" href="../Images/launchmeetingsdesktop.jpg">
+                    </image></p>
+                </li>
+              </ol>
+            </note>
+            <p>Click <b>Open MiTeam Meetings</b> to open the desktop application. The desktop application is launched, and the <b>Welcome</b> page opens. </p>
+            <p><image align="center" height="300" placement="break" width="374" id="image_4" href="../Images/desktopappprompt.jpg">
+              </image></p>
+            <p>If you do not want to launch the desktop application click <b>Cancel</b>. To continue logging in to the meeting using the web application click <b>join from your browser</b>.</p>
+          </li>
+          <li>
+            <p>If you do not have the desktop application installed, or have not selected the <b>Always launch meetings links in desktop app</b> check box, the MiTeam Meetings web application is launched, and the <b>Welcome</b> page opens.</p>
+            <p><image align="center" height="300" placement="break" width="485" id="image_6" href="../Images/welcomepageregistereduser.jpg">
+              </image></p>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p>Specify the audio and video setting, and click <b>Enter now</b> to join the meeting.</p>
+        <note>To resolve issues you face while enabling microphone, speaker, or camera, see the FAQ <xref href="meetings_faq.dita#Mitel_Help_Center____Frequently_Answered_Questions_v1_1/enablecameramicrophonemeetingsdesktop" scope="local">How do I enable the camera and the microphone for MiTeam Meetings desktop application in Windows and Mac OS?</xref> or <xref href="meetings_faq.dita#Mitel_Help_Center____Frequently_Answered_Questions_v1_1/enablecameramicrophonemeetingswebapp" scope="local">How do I enable the camera and the microphone for MiTeam Meetings web application in a browser?</xref>.</note>
+      </li>
+    </ol>
+    <p>To join a meeting listed in the <b>My meetings</b> section of your MiTeam Meetings application, use the following procedure:</p>
+    <ol>
+      <li>
+        <p>Click the meeting you want to join. The details of the meeting are displayed in the side panel.</p>
+        <p><image align="center" height="250" placement="break" width="520" id="image_8" href="../Images/joinmeeting.jpg">
+          </image></p>
+      </li>
+      <li>
+        <p>Click the <b>Join now</b> button on the panel to join as a participant. The <b>Welcome</b> page opens.</p>
+        <p><image align="center" height="300" placement="break" width="485" id="image_10" href="../Images/welcomepageregistereduser.jpg">
+          </image></p>
+      </li>
+      <li>
+        <p>Specify the audio and video setting, and click <b>Enter now</b> to join the meeting.</p>
+        <note>To resolve issues you face while enabling microphone, speaker, or camera, see the FAQ <xref href="meetings_faq.dita#Mitel_Help_Center____Frequently_Answered_Questions_v1_1/enablecameramicrophonemeetingsdesktop">How do I enable the camera and the microphone for MiTeam Meetings desktop application in Windows and Mac OS?</xref> or <xref href="meetings_faq.dita#Mitel_Help_Center____Frequently_Answered_Questions_v1_1/enablecameramicrophonemeetingswebapp">How do I enable the camera and the microphone for MiTeam Meetings web application in a browser?</xref>.</note>
+      </li>
+    </ol>
+  </body>
+</topic>
