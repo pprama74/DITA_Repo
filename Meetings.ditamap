@@ -3,11 +3,13 @@
 ]>
 
 <map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
-<title>MiTeam Meetings Release 1.5</title>
+<title>MiTeam Meetings Release 1.6</title>
 <topicref href="Content/meetings_online_help.dita" type="topic">
 <topicmeta><navtitle>MiTeam Meetings Online Help</navtitle></topicmeta>
 <topicref href="Content/getting_started.dita" type="topic">
 <topicmeta><navtitle>Getting Started with MiTeam Meetings</navtitle></topicmeta>
+<topicref href="Content/new.dita" keys="New topic 1.6"
+    type="topic"><topicmeta><navtitle>New topic for 1.6</navtitle></topicmeta></topicref>
 <topicref href="Content/what_is_meetings.dita" type="topic">
 <topicmeta><navtitle>What is MiTeam Meetings</navtitle></topicmeta></topicref>
 <topicref href="Content/register_meetings.dita" type="topic">
@@ -44,7 +46,7 @@ User</navtitle></topicmeta></topicref>
 <topicref href="Content/user_type.dita" type="topic"><topicmeta>
 <navtitle>Types of Users</navtitle></topicmeta></topicref></topicref>
 <topicref href="Content/feedback.dita" type="topic"><topicmeta>
-<navtitle>Report a problem and Share Feedback</navtitle></topicmeta></topicref></topicref>
+<navtitle>Report a Problem and Share Feedback</navtitle></topicmeta></topicref></topicref>
 <topicref href="Content/technical_guidelines.dita" type="topic">
 <topicmeta><navtitle>Technical Guidelines</navtitle></topicmeta>
 <topicref href="Content/system_requirements.dita" type="topic">
