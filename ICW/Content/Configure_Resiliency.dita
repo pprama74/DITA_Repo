@@ -4,7 +4,7 @@
 
 <topic id="Configure_Resiliency"
     xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
-<title>Configure Resiliency</title>
+<title>Configure Resiliency for 5.0.2</title>
 <body><p>Resiliency is achieved through setting up a network of
 MiVoice Business systems in a resilient cluster that can direct
 IP phones, routes and maintain calls.</p>
@@ -53,8 +53,8 @@ string. Assign unique CEID digit strings to each cluster element.
 In a network that is configured for the Voice Clustering (Portable
 Directory Number) feature, the CEID digit string allows calls to
 be routed between elements in the network. The CEID digit strings
-for remote elements must translate to a programmed ARS route, list,
-or plan for correct call routing. Choose a value of up to 7 digits.</entry>
+for remote elements must translate to a programmed ARS route, list, or
+plan for correct call routing. Choose a value of up to 7 digits.</entry>
 </row>
 <row rowsep="1">
 <entry colname="1">Feature DN</entry>
