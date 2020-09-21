@@ -4,7 +4,7 @@
 
 <topic id="Configure_Resiliency"
     xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
-<title>Configure Resiliency for 5.0.2</title>
+<title>Configure Resiliency for 5.0.3</title>
 <body><p>Resiliency is achieved through setting up a network of
 MiVoice Business systems in a resilient cluster that can direct
 IP phones, routes and maintain calls.</p>
