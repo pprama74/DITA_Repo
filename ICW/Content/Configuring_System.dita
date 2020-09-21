@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="Configuring_System"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Configuring System</title>
+<body><p>Upon successful completion, a green check appears in the <b>Status</b> column for
+each of the listed operations. If the wizard fails to configure
+the system, check the logs to determine the issue.</p><image href="assets/configuring_system.jpg"
+ scale="75.00" id="image19"><alt>vUCC117_Configuring_no_Logs_R6.jpg</alt></image>
+<p>Click <b>Finish</b> and the Solution Manager interface is displayed.</p>
+<note><p>You can also download the logs of the wizard by clicking
+the <b>Download Logs</b> button.</p></note></body></topic>

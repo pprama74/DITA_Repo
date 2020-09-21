@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="ICW"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Initial Configuration Wizard</title>
+<body><note type="important">Before you use ICW you must configure
+resiliency. For more information, see the Configuring Resiliency
+section in the MiCloud Flex Deployment Guide.</note>
+<p>The Initial Configuration Wizard (ICW) is launched from the <b>Solution
+Manager</b> GUI. You only run ICW once on the primary deployment
+during the initial configuration of the system.</p>
+<p>To launch ICW, log in to Solution Manger and click on <b>Initial
+Configuration Wizard</b>.</p>
+<p></p><image href="assets/inset_6.jpg"  scale="75.00" />
+<p>When the Initial Configuration Wizard (ICW) is launched, the
+Welcome page appears.</p><image href="assets/inset_100066.jpg" 
+scale="75.00" />
+<p>The system applies default settings to the following applications
+based on your deployment:</p>
+<ul><li><p>MiVoice Business</p></li>
+<li><p>MBG</p></li>
+<li><p>MiCollab</p></li></ul>
+<p>Refer to the respective online help for the standard default
+settings that are applied to the MiVoice Business platform, MiCollab,
+and MBG applications.</p>
+<p>ICW allows you to configure the system with the basic settings
+required to get the system up and running. After completing the
+wizard, the wizard configures the system with your settings. ICW
+guides you through the following configuration steps:</p>
+<ul><li>Review initial configuration parameters</li>
+<li>Configure Resiliency</li>
+<li>Configure administration email and servers</li>
+<li>Configure languages</li>
+<li>Configure numbering plan</li>
+<li>Configure SIP Trunking (optional)</li>
+<li>Configure incoming call configuration</li>
+<li>Select and configure SIP provider</li>
+<li>Configure MPA Probe</li>
+<li>Configure optional services: AWV, Hot Desking, and Music on
+Hold</li>
+<li>Change the administrator password for MiVB</li>
+<li>View a summary of the configuration</li>
+<li>Download Logs</li></ul>
+<p>Note that the values shown in the following screens are examples
+only.</p></body></topic>

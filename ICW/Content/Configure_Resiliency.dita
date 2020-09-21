@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="Configure_Resiliency"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Configure Resiliency</title>
+<body><p>Resiliency is achieved through setting up a network of
+MiVoice Business systems in a resilient cluster that can direct
+IP phones, routes and maintain calls.</p>
+<note>While setting up the resiliency, ensure that the resiliency
+parameter values such System Name, PBX Number, Zone, CEID Digits,
+Feature DN values are different for the primary and secondary MiVB
+application.</note>
+<p>Complete the following:</p>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" colsep="1" rowsep="1" outputclass="FormatA">
+<colspec colnum="1" colname="1" colwidth="35*"/>
+<colspec colnum="2" colname="2" colwidth="65*"/>
+<thead>
+<row rowsep="1">
+<entry colname="1">Parameter</entry>
+<entry colname="2">Description</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1">
+<entry colname="1">System Name</entry>
+<entry colname="2">Enter a unique name of up to nine characters
+for the network element.</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">FQDN or IP Address</entry>
+<entry colname="2">Defines the Fully Qualified Domain Name (FQDN)
+or IP Address (IPv4 or IPv6) of the network element specified during deployment.
+This value is pre-filled.</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">PBX Number</entry>
+<entry colname="2">The unique identifier assigned to the element.
+The PBX Number range is 1-999.</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Zone</entry>
+<entry colname="2">The zone specified for the IP voice media stream
+originating or terminating at the selected 3300 ICP/MiVoice Business
+system. The zone range is 1-999.</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">CEID Digits</entry>
+<entry colname="2">Enter a CEID (Cluster Element Identifier) digit
+string. Assign unique CEID digit strings to each cluster element.
+In a network that is configured for the Voice Clustering (Portable
+Directory Number) feature, the CEID digit string allows calls to
+be routed between elements in the network. The CEID digit strings
+for remote elements must translate to a programmed ARS route, list,
+or plan for correct call routing. Choose a value of up to 7 digits.</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Feature DN</entry>
+<entry colname="2">For the local element enter a feature directory
+number. For a remote element, enter the feature directory number
+that corresponds to the local feature directory number of the remote element
+within the cluster. Choose a value of up to 7 digits.</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Cluster Name</entry>
+<entry colname="2">Enter a unique name of up to 128 characters
+for the cluster.</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">Master MiVB Address (FQDN)</entry>
+<entry colname="2">Specify the master MiVB address of the existing
+cluster.<note><p>This field is visible only if you deploy the uccs-ext
+bundle.</p></note></entry>
+</row>
+<row rowsep="0">
+<entry colname="1">Master MiVB Password</entry>
+<entry colname="2">Enter the master MiVB password<note><p>This
+field is visible only if you deploy the uccs-ext bundle.</p></note></entry>
+</row>
+</tbody>
+</tgroup></table>
+<p></p><image href="assets/inset_300069.jpg"  scale="75.00" id="image3"><alt>inset_300068.jpg</alt></image>
+<p></p></body></topic>

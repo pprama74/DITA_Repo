@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 1.3 Map//EN" "technicalContent/dtd/map.dtd" [
+]>
+
+<map title="Initial Configuration Wizard" linking="none"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<topicref navtitle="Initial Configuration Wizard"
+    href="Content/ICW_Online_Help.dita" type="topic"><topicmeta>
+<navtitle id="InitialConfigurationWizard">Initial Configuration
+Wizard</navtitle></topicmeta>
+<topicref navtitle="Initial Configuration"
+    href="Content/Initial_Configuration.dita" type="topic">
+<topicmeta><navtitle>Initial Configuration</navtitle></topicmeta></topicref>
+<topicref navtitle="Configure Resiliency"
+    href="Content/Configure_Resiliency.dita" type="topic">
+<topicmeta><navtitle>Configure Resiliency</navtitle></topicmeta></topicref>
+<topicref navtitle="E-mail and Servers"
+    href="Content/E-mail_and_Servers.dita" type="topic"><topicmeta>
+<navtitle>E-mail and Servers</navtitle></topicmeta></topicref>
+<topicref navtitle="Languages" href="Content/Languages.dita"
+    type="topic"><topicmeta><navtitle>Languages</navtitle></topicmeta></topicref>
+<topicref navtitle="Numbering Plan"
+    href="Content/Numbering_Plan.dita" type="topic"><topicmeta>
+<navtitle>Numbering Plan</navtitle></topicmeta></topicref>
+<topicref navtitle="SIP Trunking" href="Content/SIP_Trunking.dita"
+    type="topic"><topicmeta><navtitle>SIP Trunking</navtitle></topicmeta></topicref>
+<topicref navtitle="Incoming Calls"
+    href="Content/Incoming_Calls.dita" type="topic"><topicmeta>
+<navtitle>Incoming Calls</navtitle></topicmeta></topicref>
+<topicref navtitle="SIP Provider" href="Content/SIP_Provider.dita"
+    type="topic"><topicmeta><navtitle>SIP Provider</navtitle></topicmeta></topicref>
+<topicref navtitle="MPA Probe" href="Content/MPA_Probe.dita"
+    type="topic"><topicmeta><navtitle>MPA Probe</navtitle></topicmeta></topicref>
+<topicref navtitle="Optional Services"
+    href="Content/Optional_Services.dita" type="topic"><topicmeta>
+<navtitle>Optional Services</navtitle></topicmeta></topicref>
+<topicref navtitle="New MiVB Password"
+    href="Content/New_MiVB_Password.dita" type="topic"><topicmeta>
+<navtitle>New MiVB Password</navtitle></topicmeta></topicref>
+<topicref navtitle="Summary" href="Content/Summary.dita"
+    type="topic"><topicmeta><navtitle>Summary</navtitle></topicmeta></topicref>
+<topicref navtitle="Configuring System"
+    href="Content/Configuring_System.dita" type="topic"><topicmeta>
+<navtitle>Configuring System</navtitle></topicmeta></topicref></topicref></map>

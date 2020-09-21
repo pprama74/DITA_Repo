@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="Summary"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Summary</title>
+<body><p>Review the settings summary and click <b>Print</b> to obtain
+a copy. Ensure that you have entered your settings correctly before
+proceeding.</p><image href="assets/inset_16.jpg"  scale="75.00"
+id="image18"><alt>inset_16.jpg</alt></image>
+<p>Click <b>Start</b>. The <b>Configuring System</b> page displays
+the configuration progress.</p>
+<p><b>WARNING:</b>It can take up to 15 minutes for the configuration
+to complete. While configuration is in progress, do not exit your
+browser window.</p></body></topic>

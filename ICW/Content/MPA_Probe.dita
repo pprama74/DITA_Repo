@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="MPA_Probe"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>MPA Probe</title>
+<body><p>The MPA Probe enables communication between Mitel Performance
+Analytics and the customer network. It also acts as a data collector
+between Mitel Performance Analytics and the monitored devices. The
+monitored devices send their data to the Probe which then relays
+it to Mitel Performance Analytics.The MPA probe activation URL is
+configured initially through the ICW.</p>
+<note>Contact your deployment engineer get a probe URL in MPA.</note><image
+href="assets/inset_10.jpg"  scale="75.00" id="image12"><alt>inset_10.jpg</alt></image></body></topic>

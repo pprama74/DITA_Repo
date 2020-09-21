@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="SIP_Provider"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>SIP Provider</title>
+<body><note><p>This page is shown only if you select SIP Trunking
+as <b>Yes</b>.</p></note>
+<p>Complete the following:</p>
+<simpletable relcolwidth="50* 50*" frame="all">
+<sthead>
+<stentry>Parameter</stentry>
+<stentry>Description</stentry>
+</sthead>
+<strow>
+<stentry><b>General Tab</b></stentry>
+<stentry></stentry>
+</strow>
+<strow>
+<stentry>SIP Service Provider</stentry>
+<stentry><p>The most common Service Providers for your region are
+listed in drop down menu for selection. See <xref outputclass="fm:" href="#SIP_Provider/id201VC0L095Z" />.</p><p>A
+“Generic” SIP peer profile is also available. You can also select
+“Custom Profile” and import a CSV file saved from the SIP Peer Profile
+form of the MiVoice Business System Administration Tool:<ol><li>Save
+a CSV file of a SIP Peer Profile.</li>
+<li>Select <b>Custom Profile</b> from the drop-down menu.</li>
+<li>Click <b>Browse</b> and navigate to the CSV file.</li></ol></p></stentry>
+</strow>
+<strow>
+<stentry>IP Address or FQDN</stentry>
+<stentry>Enter the IP Address or FQDN of the selected SIP Service
+Provider.</stentry>
+</strow>
+<strow>
+<stentry>External Session Border Controller IP address or FQDN</stentry>
+<stentry>Enter the IP address or Fully Qualified Domain Name of
+the External Session Border Controller (proxy server) that is provided
+by your SIP Service Provider.</stentry>
+</strow>
+<strow>
+<stentry>Number of SIP channels</stentry>
+<stentry>Displays the number of SIP channels licensed for the system.
+Number of SIP channels should not exceed the number of SIP trunk
+licenses.</stentry>
+</strow>
+<strow>
+<stentry>Phone number(s) from Service Provider</stentry>
+<stentry>This field is optional. If the FQDN/IP of an incoming call
+does not match the FQDN/IP address of the Service Provider specified
+above, the MiVoice Business system will not accept the call unless
+the number is registered with the SIP Service Provider. Enter one
+or more telephone numbers that you want to register with the SIP Service
+Provider and check the <b>Enable SIP Authentication</b> box. The
+maximum number of digits per telephone number is 26. You can enter
+a mix of ranges and single numbers (for example, 6135554000-6135554400, 6135554500).
+The entire field is limited to 60 characters.</stentry>
+</strow>
+<strow>
+<stentry>Enable SIP Authentication</stentry>
+<stentry>If your SIP Provider requires authentication with a user­name
+and password, check this box to authenticate the Telephone Numbers
+that you entered in the field above. Enter the SIP Authentication
+username and password that you received from your SIP Provider.</stentry>
+</strow>
+</simpletable>
+<p></p><image href="assets/inset_8.jpg"  scale="75.00" id="image10"><alt>inset_8.jpg</alt></image>
+<p>Click the <b>Advanced</b> tab. Enter the following:</p>
+<simpletable relcolwidth="50* 50*" frame="all">
+<sthead>
+<stentry>Parameter</stentry>
+<stentry>Description</stentry>
+</sthead>
+<strow>
+<stentry>Subscription User Name</stentry>
+<stentry>The subscription user name can be any combination of alphanumeric
+and special characters, up to 48 characters in length.</stentry>
+</strow>
+<strow>
+<stentry>Subscription Password</stentry>
+<stentry>The subscription password can be any combination of alphanumeric
+and special characters, up to 20 characters in length.</stentry>
+</strow>
+<strow>
+<stentry>Subscription Password Confirmation</stentry>
+<stentry>Enter the same password to confirm.</stentry>
+</strow>
+</simpletable>
+<p></p><image href="assets/inset_9.jpg"  scale="75.00" id="image11"><alt>inset_9.jpg</alt></image>
+<p></p>
+<table frame="all" colsep="1" rowsep="1" id="id201VC0L095Z">
+<title>List of supported SIP Service Providers for different countries</title>
+<tgroup cols="2" colsep="1" rowsep="1" outputclass="FormatA">
+<colspec colnum="1" colname="1" colwidth="50*"/>
+<colspec colnum="2" colname="2" colwidth="50*"/>
+<thead>
+<row rowsep="1">
+<entry colname="1">Country</entry>
+<entry colname="2">List of Supported SIP Service Providers</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1">
+<entry colname="1"><p>Australia</p></entry>
+<entry colname="2"><p>AAPT</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>iiNet</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Telstra</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>Belgium</p></entry>
+<entry colname="2"><p>Belgacom</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Destiny</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Telenet</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Toledo</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>Canada</p></entry>
+<entry colname="2"><p>Bell</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>MTS-Allstream</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Shaw</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>ThinkTel</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>France</p></entry>
+<entry colname="2"><p>Acropolis</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Hub-Telecom</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>OpenIP</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>Germany</p></entry>
+<entry colname="2"><p>Colt</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>QSC</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Vodafone</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>Netherlands</p></entry>
+<entry colname="2"><p>OneXS</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>UPC-Telecom</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Vodafone</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>New Zealand</p></entry>
+<entry colname="2"><p>2talk</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>SNAP-AKL</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>SNAP-CHC</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>SNAP-WGN</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>WxC</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>United Kingdom</p></entry>
+<entry colname="2"><p>BTGS</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>C&amp;W</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Gamma</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>United States</p></entry>
+<entry colname="2"><p>AccessLine</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>AT&amp;T</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Century</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Paetec-BroadSoft</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Paetec-Genband</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Paetec-Lucent</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>TW Telecom</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"></entry>
+<entry colname="2"><p>Windstream</p></entry>
+</row>
+<row rowsep="0">
+<entry colname="1"></entry>
+<entry colname="2"><p>Windstream-NuVox</p></entry>
+</row>
+</tbody>
+</tgroup></table></body></topic>

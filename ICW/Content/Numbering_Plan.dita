@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="Numbering_Plan"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Numbering Plan</title>
+<body><p>Hunt groups are used to route incoming calls to a group
+of designated extensions or application ports. A hunt group consists
+of a hunt group extension number (pilot number) and a group of member
+extension numbers or ports. Calls to the hunt group extension ring
+the first idle member in the group. Enter the hunt group extension
+numbers and starting port extensions for the hunt groups or use
+the default settings provided.</p>
+<p>Complete the following:</p>
+<note><p>You also have the option of accepting the default values displayed.</p></note>
+<simpletable relcolwidth="50* 50*" frame="all">
+<sthead>
+<stentry>Parameter</stentry>
+<stentry>Description</stentry>
+</sthead>
+<strow>
+<stentry>Extension Length</stentry>
+<stentry>Set the length from (3 to 7 digits) of the system extension
+numbers.</stentry>
+</strow>
+<strow>
+<stentry>Voice Mail Users</stentry>
+<stentry>Select the number of purchased embedded voice mail licenses.</stentry>
+</strow>
+<strow>
+<stentry>Voice Mail Ports</stentry>
+<stentry>Enter the number of voice mail ports required. See <xref outputclass="fm:Phrase (i.e. Widget -OR- Contraption)" href="#Numbering_Plan/id2023I0M508N" /> for
+the number of voice mail ports that can be accommodated for users of
+different sizes.</stentry>
+</strow>
+<strow>
+<stentry>RAD Ports</stentry>
+<stentry>Enter the number of RAD (Recorded Announcement Device)
+ports to reserve for future. See <xref outputclass="fm:Phrase (i.e. Widget -OR- Contraption)" href="#Numbering_Plan/id2023I0M508N" /> for
+the number of RAD ports that can be reserved for users of different sizes.</stentry>
+</strow>
+<strow>
+<stentry>Voice Mail Hunt Group</stentry>
+<stentry>Extension that users dial to reach the voice mail system.</stentry>
+</strow>
+<strow>
+<stentry>Voice Mail Starting Port</stentry>
+<stentry>First extension in the extension group. It is used by the
+voice mail system to connect a user to the voice mail system.</stentry>
+</strow>
+<strow>
+<stentry>Voice Mail Record A Call Hunt Group</stentry>
+<stentry>Extension that users dial to reach the voice mail record-a-call
+system.</stentry>
+</strow>
+<strow>
+<stentry>MiCollab Audio, Web and Video Conferencing (AWV) Hunt Group</stentry>
+<stentry>Extension that users dial to reach the AWV system.<note><p>This
+field is visible only if MiCollab is part of the deployment.</p></note></stentry>
+</strow>
+<strow>
+<stentry>MiCollab Audio, Web and Video Conferencing (AWV) Starting
+Port</stentry>
+<stentry>First extension in the group of extensions that is used
+to connect an outside caller or internal user to the AWV system.<note><p>This
+field is visible only if MiCollab is part of the deployment.</p></note></stentry>
+</strow>
+</simpletable>
+<p></p><image href="assets/vUCC104_Numbering_Plan_R7.jpg"  scale="75.00"
+id="image6"><alt>vUCC104_Numbering_Plan_R7.jpg</alt></image>
+<p></p>
+<table frame="all" colsep="1" rowsep="1" id="id2023I0M508N">
+<title id="id2023H0R005Z">Embedded Voice Mail Allocations</title>
+<tgroup cols="4" colsep="1" rowsep="1" outputclass="FormatA">
+<colspec colnum="1" colname="1" colwidth="25*"/>
+<colspec colnum="2" colname="2" colwidth="25*"/>
+<colspec colnum="3" colname="3" colwidth="25*"/>
+<colspec colnum="4" colname="4" colwidth="25*"/>
+<thead>
+<row rowsep="1">
+<entry colname="1">Users</entry>
+<entry colname="2">Voice Mail Ports</entry>
+<entry colname="3">RAD Ports</entry>
+<entry colname="4">Total</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1">
+<entry colname="1">&lt;250</entry>
+<entry colname="2">20</entry>
+<entry colname="3">10</entry>
+<entry colname="4">30</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">500</entry>
+<entry colname="2">20</entry>
+<entry colname="3">10</entry>
+<entry colname="4">30</entry>
+</row>
+<row rowsep="1">
+<entry colname="1">1000</entry>
+<entry colname="2">40</entry>
+<entry colname="3">20</entry>
+<entry colname="4">60</entry>
+</row>
+<row rowsep="0">
+<entry colname="1">2500</entry>
+<entry colname="2">40</entry>
+<entry colname="3">20</entry>
+<entry colname="4">60</entry>
+</row>
+</tbody>
+</tgroup></table></body></topic>

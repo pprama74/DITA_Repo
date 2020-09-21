@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="SIP_Trunking"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>SIP Trunking</title>
+<body><p>Use the SIP Trunking page to provision the SIP trunking
+connection to your SIP service provider. You will need to determine
+the following before hand: the main business number, the answer point
+for incoming calls, the SIP provider IP address or FQDN, and optional
+SIP provider credentials. If you wish to provision SIP trunking,
+please select <b>Yes</b> below. Otherwise, select <b>No</b> to proceed
+with the remaining configuration.</p><image href="assets/inset_000073.jpg"
+ scale="75.00" id="image9"><alt>inset_000073.jpg</alt></image></body></topic>

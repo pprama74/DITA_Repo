@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+<topic id="Welcome_page"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Welcome page</title>
+<body><p>When the Initial Configuration Wizard (ICW) is launched
+from the Solution Manger GUI, the system applies default settings
+to the following applications:</p>
+<ul><li><p>MiVoice Business</p></li>
+<li><p>MBG</p></li>
+<li><p>MiCollab</p></li></ul>
+<p>Refer to the MiVoice Business system administrator online help
+for the standard default settings that are applied to the MiVoice
+Business platform and MiCollab applications.</p><image href="assets/inset_100066.jpg"
+ scale="49.65" id="image1"><alt>inset_100066.jpg</alt></image></body></topic>
